@@ -1,0 +1,39 @@
+{
+  "name": "每日站会",
+  "description": "面向工程/产品团队的限时每日进度同步。",
+  "sections": [
+    {
+      "title": "日期",
+      "instruction": "YYYY-MM-DD",
+      "format": "string"
+    },
+    {
+      "title": "参会人员",
+      "instruction": "列出到场的参与者",
+      "format": "list"
+    },
+    {
+      "title": "昨日进展",
+      "instruction": "昨天完成的工作(简短要点)",
+      "format": "list",
+      "example_item_format": "| **负责人** | **已完成工作** |\n| --- | --- |"
+    },
+    {
+      "title": "今日计划",
+      "instruction": "今天计划开展的工作(简短要点)",
+      "format": "list",
+      "example_item_format": "| **负责人** | **计划工作** |\n| --- | --- |"
+    },
+    {
+      "title": "阻塞项",
+      "instruction": "当前的阻碍以及负责人(如已明确)",
+      "format": "list",
+      "item_format": "| **负责人** | **阻塞项** | **影响** |\n| --- | --- | --- |"
+    },
+    {
+      "title": "备注",
+      "instruction": "可选的简短备注或通知事项",
+      "format": "paragraph"
+    }
+  ]
+}

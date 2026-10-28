@@ -1,0 +1,43 @@
+name: zhihui-web
+services:
+  app:
+    image: ${ZHIHUI_IMAGE:?Set ZHIHUI_IMAGE to a verified release tag}
+    restart: unless-stopped
+    init: true
+    user: "10001:10001"
+    # Non-secret site metadata is preserved separately from release-generated .env.
+    env_file:
+      - ./.env.site
+    ports:
+      - "127.0.0.1:8810:8810"
+    environment:
+      ZHIHUI_BIND: "0.0.0.0:8810"
+      ZHIHUI_PUBLIC_URL: "https://zhihui.helms.wiki"
+      ZHIHUI_DATA_DIR: "/var/lib/zhihui-web"
+      ZHIHUI_STATIC_DIR: "/app/static"
+      ZHIHUI_MASTER_KEY_FILE: "/run/secrets/master_key"
+      ZHIHUI_BUILD: ${ZHIHUI_BUILD:-1}
+      RUST_LOG: "info"
+    volumes:
+      - ./data:/var/lib/zhihui-web
+      - ./backups:/backup
+    secrets:
+      - master_key
+    read_only: true
+    tmpfs:
+      - /tmp:size=128m,mode=1777
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    mem_limit: 1g
+    memswap_limit: 1g
+    cpus: 1.5
+    pids_limit: 128
+    stop_grace_period: 30s
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+secrets:
+  master_key:
+    file: ./secrets/master_key

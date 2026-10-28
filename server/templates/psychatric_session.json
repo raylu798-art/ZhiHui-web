@@ -1,0 +1,64 @@
+{
+  "name": "心理咨询记录(SOAP + AI 混合)",
+  "description": "基于 SOAP 的 AI 辅助心理咨询进展记录模板,含临床元数据与 AI 摘要。",
+  "sections": [
+    {
+      "title": "会谈元数据",
+      "instruction": "来访者缩写/编号、会谈日期、咨询师、会谈类型、时长(隐私敏感信息)",
+      "format": "string"
+    },
+    {
+      "title": "AI 会谈摘要",
+      "instruction": "一句话要点和一段执行摘要(AI 生成),附置信度。",
+      "format": "paragraph"
+    },
+    {
+      "title": "主观资料 (S)",
+      "instruction": "来访者自述的情绪、症状、睡眠、食欲和压力源",
+      "format": "paragraph"
+    },
+    {
+      "title": "客观观察 (O)",
+      "instruction": "可观察到的表现:情感、言语、行为、定向力,以及必要的生命体征",
+      "format": "paragraph"
+    },
+    {
+      "title": "评估 (A)",
+      "instruction": "诊断印象、风险评估(自伤/伤人倾向)、相对治疗目标的进展",
+      "format": "paragraph"
+    },
+    {
+      "title": "计划 (P)",
+      "instruction": "干预措施、用药调整、转介、治疗任务与随访安排",
+      "format": "list",
+      "item_format": "| **干预措施** | **负责人** | **频率** | **随访日期** |\n| --- | --- | --- | --- |"
+    },
+    {
+      "title": "用药情况",
+      "instruction": "当前用药、剂量、调整情况及理由",
+      "format": "list",
+      "item_format": "| **药物** | **剂量** | **给药途径** | **开始/调整日期** |\n| --- | --- | --- | --- |"
+    },
+    {
+      "title": "诊断 (DSM/ICD)",
+      "instruction": "列出诊断编码及工作诊断",
+      "format": "list",
+      "item_format": "| **编码** | **体系** | **诊断** |\n| --- | --- | --- |"
+    },
+    {
+      "title": "安全与风险管理",
+      "instruction": "安全计划、紧急联系人、住院评估考量",
+      "format": "paragraph"
+    },
+    {
+      "title": "下次预约",
+      "instruction": "下次会谈的日期、时间和形式",
+      "format": "string"
+    },
+    {
+      "title": "审核记录",
+      "instruction": "人工复核标记、复核人姓名及时间、AI 版本",
+      "format": "paragraph"
+    }
+  ]
+}

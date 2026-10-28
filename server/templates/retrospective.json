@@ -1,0 +1,45 @@
+{
+  "name": "迭代回顾(敏捷)",
+  "description": "面向持续改进的迭代回顾会议模板。",
+  "sections": [
+    {
+      "title": "迭代",
+      "instruction": "迭代名称/编号及起止日期",
+      "format": "string"
+    },
+    {
+      "title": "参会人员",
+      "instruction": "列出参与者",
+      "format": "list"
+    },
+    {
+      "title": "开始做",
+      "instruction": "下个迭代要开始尝试的做法或实验",
+      "format": "list",
+      "item_format": "| **想法** | **提出人** |\n| --- | --- |"
+    },
+    {
+      "title": "停止做",
+      "instruction": "需要停止的做法",
+      "format": "list",
+      "item_format": "| **做法** | **原因** |\n| --- | --- |"
+    },
+    {
+      "title": "继续做",
+      "instruction": "值得继续保持的做法",
+      "format": "list",
+      "item_format": "| **做法** | **备注** |\n| --- | --- |"
+    },
+    {
+      "title": "行动项",
+      "instruction": "具体的改进实验,附负责人和成功指标",
+      "format": "list",
+      "item_format": "| **负责人** | **任务** | **截止日期** | **成功指标** |\n| --- | --- | --- | --- |"
+    },
+    {
+      "title": "备注与投票",
+      "instruction": "总结及得票最高的条目",
+      "format": "paragraph"
+    }
+  ]
+}

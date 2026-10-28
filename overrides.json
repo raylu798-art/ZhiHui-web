@@ -1,0 +1,78 @@
+{
+  "frontend/src/app/favicon.ico": {
+    "sourceHash": "9a445df1d02ba4f2f5aedcfe246c5960203dc1c22fbd16d3f62eee5585c9cdea",
+    "webHash": null
+  },
+  "frontend/src/app/globals.css": {
+    "sourceHash": "699db5b6f64a1191aa878d092decd3bffe09c81e246f96e726a93c1e44cae6a4",
+    "webHash": "7b818d93e301441e145ff69e7157257412584e6f54c960867bf53330a1d52f6c"
+  },
+  "frontend/src/app/layout.tsx": {
+    "sourceHash": "84909b6c0b7fd211d59991c54d189c0b430825ef31a0e402c574d1bee4731172",
+    "webHash": "9bcece202a23c8b4b90e49f7e725670066fb0b6c2450f601be7c29fb69c4d0b6"
+  },
+  "frontend/src/app/metadata.ts": {
+    "sourceHash": "25d3e76c123da19ba1e6a15cb5da23179221d90a71f9f73407e210d559e6a203",
+    "webHash": null
+  },
+  "frontend/src/app/metadata.tsx": {
+    "sourceHash": "350083382a3545449869c29831a51d9ea7eb3cea69d97f8b3e7e20d4c41bbea2",
+    "webHash": null
+  },
+  "frontend/src/app/page.tsx": {
+    "sourceHash": "5698fb4a4067c38cb75a942ea651d5d349aa096309555d4d9aa497e041c80af2",
+    "webHash": "9f0b205a6bc7a1b0a1b115a26e19e1e827dea5d7c2783717cf5aa87d34bd06fd"
+  },
+  "frontend/src/app/meeting-details/page-content.tsx": {
+    "sourceHash": "91b3bc59e1103e32d965dbfe38183ab3e6cf70ad5850d3edb728870c0a533369",
+    "webHash": null
+  },
+  "frontend/src/app/meeting-details/page.tsx": {
+    "sourceHash": "6f66a803255bac0388612e63aee4831e6f1ece31feb6863973223a1d686ed249",
+    "webHash": null
+  },
+  "frontend/src/app/notes/[id]/page.tsx": {
+    "sourceHash": "6cc1813b9b26ef55afa632deb146528c43710449a46435fe7f2aebdf1c213754",
+    "webHash": null
+  },
+  "frontend/src/app/settings/page.tsx": {
+    "sourceHash": "1c4f0a51a673ee1a3c0780d15bd00b17369d1b373fde0067f6d0a710a2f5f2ed",
+    "webHash": null
+  },
+  "frontend/src/app/_components/QuickSettingsBar.tsx": {
+    "sourceHash": "470b03f2b073d2b9ecef638c0b95a23ddecc92951e86fc348ad6b2e971d3bec4",
+    "webHash": null
+  },
+  "frontend/src/app/_components/SettingsModal.tsx": {
+    "sourceHash": "7bd018ec7bf7f88fad00087cf82e4fb38c4d2ba812419a0dd64a08a2dd637b2e",
+    "webHash": null
+  },
+  "frontend/src/app/_components/StatusOverlays.tsx": {
+    "sourceHash": "900e2062c3554b0a1a8be26a8ad5b319631a338d25a9609d71e00bf8955fc6e1",
+    "webHash": null
+  },
+  "frontend/src/app/_components/TranscriptPanel.tsx": {
+    "sourceHash": "77be3565629f9049455f51f87f9701f1de593f813b73d812c4100be9043a4fef",
+    "webHash": null
+  },
+  "frontend/package.json": {
+    "sourceHash": "eb35e2735a06b1d438ff5e4516ad99915b609d318b3fec4860ea572bf9acbeb7",
+    "webHash": "6457dd904ca242c01a48fc43b2e7172d987438dd6d263fb685841cc207e3598e"
+  },
+  "frontend/pnpm-lock.yaml": {
+    "sourceHash": "37ff9c5e26ce59019718009bf7eba3ac146ca634dac2ae7b557dec05c68f4ad7",
+    "webHash": "68cca1f2f499815d69e3d37ca3da62c16edd7386d840b6a1e33156d43fb7b1f2"
+  },
+  "frontend/next.config.js": {
+    "sourceHash": "96e4c1d0f7af76800b09182ffaa711e3134de2627cdc2c5438f982cac6237cfb",
+    "webHash": "fd6d574179963ac0c7cadb06416817125d4d53570f8a8097efe77181a57b206b"
+  },
+  "frontend/tsconfig.json": {
+    "sourceHash": "4502ffbce87a29c95caebb663c4df9afe49952ff56ed3264d6fe5c3f13220076",
+    "webHash": "e39fb938063691b41aaaca6bdbb6e9d1ed7539d2a18d3cd53d011317f8dfa407"
+  },
+  "frontend/tailwind.config.ts": {
+    "sourceHash": "8ff50eafc7cef0ffa0b8bb48f06e26663e9579f70d4a8a133d22892ac5b9ad0b",
+    "webHash": "c62be466379e673b5331bde3132d0ef159fe0b97ad329977d5eb3afb929dd7e1"
+  }
+}

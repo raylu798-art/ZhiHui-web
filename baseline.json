@@ -1,0 +1,1417 @@
+{
+  "productVersion": "0.6.6",
+  "webBuild": 5,
+  "desktopFiles": {
+    "ZhiHui/frontend/src-tauri/src/sensevoice_engine/language.rs": "5ad40a7c23e40e4561694b18fe5e772b39b944972f9a36fd7e23ee4c6c41c703",
+    "ZhiHui/frontend/src/components/AsrLanguageSelector.tsx": "f29d5d5e6b2a4153eb0907ca0e900ed4708df42ee22cd6f4a04be0781d1c9412",
+    "ZhiHui/frontend/src/lib/asr-languages.ts": "edf39f8ac6eba608250c383aeb52cb4aca70fc7ce0dc0dddfdcbe32b1bbe1eb1",
+    "ZhiHui/frontend/tests/lib/asr-languages.test.mjs": "61d5fdf29e5ed69fe9881fb17f0b9e9e898ea89f08ac1279c44435090756bfe2",
+    "ZhiHui/Cargo.lock": "9fb631fff08410554e11aeacfd279b9de90e5f81ca06d8e1f26a275e67289f8b",
+    "ZhiHui/Cargo.toml": "44d8271333dffae036464e77c88e81a0073c35a64f7533a5131173e87095e4dc",
+    "ZhiHui/frontend/.env.example": "5475613a96a097163b1bf85141ff3ff90985a6dbb494b0f9fb98c18f7e8fa658",
+    "ZhiHui/frontend/.gitignore": "2bb727326328d1121a40e8f352bdeb09588ea16312e27236757cd203857d50b2",
+    "ZhiHui/frontend/API.md": "f13723731326d8453f13a312800a29b5b26383b30da7725963bd7ba9afba0f04",
+    "ZhiHui/frontend/README.md": "a3db4e48766085577a0d6419090a7feea5df31d789a3bc8042d1be80be818191",
+    "ZhiHui/frontend/build-gpu.bat": "7871aaa4646828d730cc2cbf49024682d6bd71769cd3a35ec71ce994390b4cc4",
+    "ZhiHui/frontend/build-gpu.ps1": "22a94cc8488884bf526d1f3b7427eb7f5b420311015b39aa24fc5877bf829647",
+    "ZhiHui/frontend/build-gpu.sh": "ff7812bcce65d8d3b191766810080efe637cd1e4121ef281d765245a01e7d9dd",
+    "ZhiHui/frontend/build.bat": "7e327d3ea65e7991719a0256767834016b3665c491f7463c8c0aa83167400457",
+    "ZhiHui/frontend/build.ps1": "16285583ee5075a43af5f9012086eb5ceef2c902d6bd92796a5e2e943a30d821",
+    "ZhiHui/frontend/build_backup.bat": "4e0e61c76801d1af10eea7f7da6209b40c742ae189cca93016804aaa673fdcb1",
+    "ZhiHui/frontend/clean_build.sh": "dc11a10a155569b724e777808be0644fab6abb9e66a20665f6a673f7513d8193",
+    "ZhiHui/frontend/clean_build_windows.bat": "ff5188d79594b1e63b603aa1cb6c78a3ed23fc99d28ecdf4fa3a236fd6191bd9",
+    "ZhiHui/frontend/clean_run.sh": "ad67a70f66ee7f5c6cb496a46b4f1d877c3f1345d56c17f3712e8384954fa37f",
+    "ZhiHui/frontend/clean_run_windows.bat": "b30bdbe699706633077dbada068db0e6e97952f161a4656eba250abab3fee6ce",
+    "ZhiHui/frontend/components.json": "5a0f8a02dd9673027fbb754d4f5be4badc381227b7f67a52eb2ea46dc104b117",
+    "ZhiHui/frontend/dev-gpu.bat": "ff44bedfe5696a58f61d6ae26e20ffae981b6e2ee29754f0257cc2703dede1a1",
+    "ZhiHui/frontend/dev-gpu.ps1": "270cd6e79895ed20b8cb91f33c380440a1b197a8f7c11be8260f3dc3d813d2ef",
+    "ZhiHui/frontend/dev-gpu.sh": "f4b88c4bc3f68441c155972852cb60c92352c56e616e5d82eca07d37e913341a",
+    "ZhiHui/frontend/eslint.config.mjs": "3de4ba23ff1f687685651cad622700613998de80daa30ac4d82c47776a04019d",
+    "ZhiHui/frontend/next.config.js": "96e4c1d0f7af76800b09182ffaa711e3134de2627cdc2c5438f982cac6237cfb",
+    "ZhiHui/frontend/package-app.sh": "60aecc28803a01abb9e0148e7fae78f727f5023a5861c10fdc88aee42811e2e0",
+    "ZhiHui/frontend/package.json": "eb35e2735a06b1d438ff5e4516ad99915b609d318b3fec4860ea572bf9acbeb7",
+    "ZhiHui/frontend/pnpm-lock.yaml": "37ff9c5e26ce59019718009bf7eba3ac146ca634dac2ae7b557dec05c68f4ad7",
+    "ZhiHui/frontend/postcss.config.js": "313a31170ebfa53925f49a22982f5698940ea19a34f6f357e3842a957b8e2006",
+    "ZhiHui/frontend/postcss.config.mjs": "ac31e2a95ef64fe27ceb4124e101675273107aae2e33bc490b01d919e7f03646",
+    "ZhiHui/frontend/public/file.svg": "2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4",
+    "ZhiHui/frontend/public/globe.svg": "b614b9bf183925957661ac851498fe1d8029fd43a62fbfed86f9e2624a57e7cf",
+    "ZhiHui/frontend/public/icon_128x128.png": "cffce1a83f89ff46973f7c11791ebc3c73b49d8e07c473a8ff4603c9db6960a1",
+    "ZhiHui/frontend/public/icon_32x32@2x.png": "afa6946dc249f577f0eb031b2f58ed1d90a760c1f9519607b15163ecc1675d7a",
+    "ZhiHui/frontend/public/logo-collapsed.png": "2874107f8269219fcadb0748b298a74d61c37a3519da6cc214b2fc9ed6b009da",
+    "ZhiHui/frontend/public/logo.png": "8d03d7a8b14d8592609ccea338b4c9281d99729c03e582f9b3d5a26787430dac",
+    "ZhiHui/frontend/public/next.svg": "55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc",
+    "ZhiHui/frontend/public/vercel.svg": "f081337b2fee635b455b63275406a3e7f39d6a014e25ad90dab5a67e62a12ac4",
+    "ZhiHui/frontend/public/window.svg": "644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1",
+    "ZhiHui/frontend/scripts/auto-detect-gpu.js": "a8096f123068f30ebef095f4d5c12d0e5273061f15f0e466ec72743bda30ae2d",
+    "ZhiHui/frontend/scripts/load-env.ps1": "82e2382d483e401ce4e622addefea9f3788ce4b850a55e8fa3eacb19a8df87f4",
+    "ZhiHui/frontend/scripts/tauri-auto.js": "58fa09b0279b2fd0e28954268cfe408ec2c9b74c3478ad329544ce63f3132fa0",
+    "ZhiHui/frontend/src-tauri/.cargo/config.toml": "ce7c60961ae9d7a1b0feefb65750bed566671f8801dabf38a499d15fb18feab8",
+    "ZhiHui/frontend/src-tauri/.gitignore": "31fd0403debfecaf96825f83224899d34b4ff73fe9fa0e022206afaf89ae4092",
+    "ZhiHui/frontend/src-tauri/CLEANUP_PLAN.md": "0593570581100b743e945bffb2f4a639432a7a22581edd8c9a7f0a56138304c0",
+    "ZhiHui/frontend/src-tauri/Cargo.toml": "2f8ddee7cc6c4f317107b5c65ae75e22964542aadd066e5f974be1af0c6ca8d5",
+    "ZhiHui/frontend/src-tauri/Info.plist": "bb1da1d478954cdae4b5096b69b9b7c5ee22e676ddc7d226d933835d225be2f5",
+    "ZhiHui/frontend/src-tauri/LOGGING_OPTIMIZATIONS.md": "f8ac60645165d9809958ceac658a64f28648f42f3e33c1f53d52b39577f3ce33",
+    "ZhiHui/frontend/src-tauri/NOTIFICATION_TESTING.md": "c9035f667dc6bc56cbb10df7f004995a5c13add9892f5a382c8c19db2d201048",
+    "ZhiHui/frontend/src-tauri/app-icon-source.png": "bb8a1296aee74942f5a9817afd86204f5037d37694803d520fff6639e47e82c2",
+    "ZhiHui/frontend/src-tauri/build.rs": "6ad281b9c564ce6b1718919221b46bdd2b5c4bac3d3bdba7804a7aeff85e43e6",
+    "ZhiHui/frontend/src-tauri/check_screen_permission.swift": "a47151b9a956a8ddeae03598fccd881a4a524ccb65d63666b2965baffbfce6b2",
+    "ZhiHui/frontend/src-tauri/config/backend_config.json": "267e7271620197a16674f4903e17a1c259ff5d6337ab4d70874993da2781cb39",
+    "ZhiHui/frontend/src-tauri/entitlements.plist": "200c66862382f7ba3bc7818b01eb714059e9ae81fca865803d7bff3115c9d29f",
+    "ZhiHui/frontend/src-tauri/icons/128x128.png": "bb1f2b977217ea63fb6457d40b601f0fd1e771623a4e5e2dbedb23929c77907e",
+    "ZhiHui/frontend/src-tauri/icons/128x128@2x.png": "b39a6522801fcf663f98ef95b2238ea57af3b56fcfd498862dc0741cc3852d5d",
+    "ZhiHui/frontend/src-tauri/icons/32x32.png": "18d3edb2a0703baa6d5b1dfc59aa8536c2577ba18840f895aeb5b8d9dad69a18",
+    "ZhiHui/frontend/src-tauri/icons/64x64.png": "9bcb08a059b84de55fb70952153ef9003dec5a0de116248d368713ede0cce177",
+    "ZhiHui/frontend/src-tauri/icons/Square107x107Logo.png": "b2dbf8e1a7026e8e0bdf532abbb976faed95ce4858f50a384f1a7a2c95326bd7",
+    "ZhiHui/frontend/src-tauri/icons/Square142x142Logo.png": "3c6f89e5d3b323955ba7cbaf1959f8582e4e8cf90c9f75059676531365ba23d7",
+    "ZhiHui/frontend/src-tauri/icons/Square150x150Logo.png": "c61d4e268202607e50a9aa27fe0226d5599efefa971b5c9da710fc645918c357",
+    "ZhiHui/frontend/src-tauri/icons/Square284x284Logo.png": "7765ad0feffe41cf7f0a3437b88a1ace043f521104409129e9d112fb2d1032d2",
+    "ZhiHui/frontend/src-tauri/icons/Square30x30Logo.png": "262115514d6fcc11ae59f4e3f6aa5225eb7b475dc5084ce9ccede07bba69f3f5",
+    "ZhiHui/frontend/src-tauri/icons/Square310x310Logo.png": "e58b66e9dad5a42524e45b8c6d2b0a2685a236edf8d09910bec7dadaa0a4ed68",
+    "ZhiHui/frontend/src-tauri/icons/Square44x44Logo.png": "0faf8207503673a6df72e194e7b700f738157f46a1e7ebaa14bac1f307da13a6",
+    "ZhiHui/frontend/src-tauri/icons/Square71x71Logo.png": "ea683c43b8cb259a8b31745a6f84957896cc1b9b2dddd956add56b85b613a88b",
+    "ZhiHui/frontend/src-tauri/icons/Square89x89Logo.png": "1267963e6cc57eb470fc336f0afcf85b03d466fa7df7383d192a7b65bffa4f13",
+    "ZhiHui/frontend/src-tauri/icons/StoreLogo.png": "109a1935863db08d82de26b00ab6a42866b7d1754d5f0efa0e8499cdd725e30e",
+    "ZhiHui/frontend/src-tauri/icons/android/mipmap-anydpi-v26/ic_launcher.xml": "760d4b8a06bf7163dd010c33ad2cac9e4a75fa0177afaba042f83e311eef0c3e",
+    "ZhiHui/frontend/src-tauri/icons/android/mipmap-hdpi/ic_launcher.png": "f23b65e628407623bc007ca98af72f7814fe42f0510f929f69bf51b2e7465942",
+    "ZhiHui/frontend/src-tauri/icons/android/mipmap-hdpi/ic_launcher_foreground.png": "1794f1cb922ceadd5a9428905cf6350b29f8872303875b5429e0b9abfe6922c2",
+    "ZhiHui/frontend/src-tauri/icons/android/mipmap-hdpi/ic_launcher_round.png": "061c5967a3b898b545813bbcf426c07de8c2d21732e787de96db413fa8c52746",
+    "ZhiHui/frontend/src-tauri/icons/android/mipmap-mdpi/ic_launcher.png": "b11feec7178115b6581d3c648abf6364921fb46a64a822ea23ef2a04111c6b60",
+    "ZhiHui/frontend/src-tauri/icons/android/mipmap-mdpi/ic_launcher_foreground.png": "847c08ddae6f237ff5211a49271dac234959c3003d15d4a2a711ab0c49f126ca",
+    "ZhiHui/frontend/src-tauri/icons/android/mipmap-mdpi/ic_launcher_round.png": "792e1563f077dcd9c15f30dad70bc32614e97fb01bc7e02108794e65b2f19055",
+    "ZhiHui/frontend/src-tauri/icons/android/mipmap-xhdpi/ic_launcher.png": "41ff97cc7143f9971f4955fcad8cef896d932bbad89c925eedd63785fc2fdd42",
+    "ZhiHui/frontend/src-tauri/icons/android/mipmap-xhdpi/ic_launcher_foreground.png": "1c2023074c7165954f72e90cca96642dbd078788c5f65d33ab4f1888d9f96430",
+    "ZhiHui/frontend/src-tauri/icons/android/mipmap-xhdpi/ic_launcher_round.png": "a35c13489d982641ba8c9758b7aee756e3b92d38c14d19d2f92ac5876242746b",
+    "ZhiHui/frontend/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher.png": "08de915a8e48b303405c101817dccd4195e116e1b0e45d644e17047ebddb4875",
+    "ZhiHui/frontend/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher_foreground.png": "f81c101865845b0dfd43342013b7b57927c11b14f3149f6c832c532c68a8db7f",
+    "ZhiHui/frontend/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher_round.png": "98c8ebb7e050010ed2e367be481bea46e88c9cc6991227558379213717f7a0d7",
+    "ZhiHui/frontend/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher.png": "7d92b0823e8eaca25bef78fd28dfee944483351bf2b354281715e130d7a2615c",
+    "ZhiHui/frontend/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher_foreground.png": "109e964df441f08e46723ab7c79976aa16ae738f8e632b219cfc0eb875ec592d",
+    "ZhiHui/frontend/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher_round.png": "c76fe5ce2b8b4e4852e6efb9c22f282ab2a659ddf4863e7cf19e52ddee6ac718",
+    "ZhiHui/frontend/src-tauri/icons/android/values/ic_launcher_background.xml": "0687336f0ccc6f7ee09c7c95110667c63b75931238df779a21af401fb864cd34",
+    "ZhiHui/frontend/src-tauri/icons/app_icon.icns": "5372e4e38dc25ced12200ac60b0df4b1e2248f95ab624be154bee90c33b819d1",
+    "ZhiHui/frontend/src-tauri/icons/app_icon.ico": "a8430cd75190f672c070b275715331b1e17bbd2f97649abca5e613f2ee49a5da",
+    "ZhiHui/frontend/src-tauri/icons/icon.icns": "564c79d5bc711f23cb2267e5e0e5b8b807cbf0d07467b56d0d5ef0060a7376d1",
+    "ZhiHui/frontend/src-tauri/icons/icon.ico": "9a445df1d02ba4f2f5aedcfe246c5960203dc1c22fbd16d3f62eee5585c9cdea",
+    "ZhiHui/frontend/src-tauri/icons/icon.png": "b972eabf16bb22421f8bbd3e27fd10226c21b7967591c368a6c9a12fd3c9b27a",
+    "ZhiHui/frontend/src-tauri/icons/icon_128x128.png": "684d0ca63a015985be9452efbc621d369d0929c30a6b9300cf2c40355d8f73f6",
+    "ZhiHui/frontend/src-tauri/icons/icon_128x128@2x.png": "79c07b8e5188dcbacdebd6a58e2e5421e6eee8561b6bfa99fd03eb313c9efb4c",
+    "ZhiHui/frontend/src-tauri/icons/icon_16x16.png": "77ad730ddd3adbb9f37b6b3754b6b80948a5d7c978aabfcf18291fdffdce84ed",
+    "ZhiHui/frontend/src-tauri/icons/icon_16x16@2x.png": "99210afaeed03cd611b8eaf92bccd088040d40b729d37297f63a9024fb61db39",
+    "ZhiHui/frontend/src-tauri/icons/icon_256x256.png": "79c07b8e5188dcbacdebd6a58e2e5421e6eee8561b6bfa99fd03eb313c9efb4c",
+    "ZhiHui/frontend/src-tauri/icons/icon_256x256@2x.png": "77e236ae7a4bce96895519bb3a1445615394e8c66fbe051d57824996f68e909b",
+    "ZhiHui/frontend/src-tauri/icons/icon_32x32.png": "99210afaeed03cd611b8eaf92bccd088040d40b729d37297f63a9024fb61db39",
+    "ZhiHui/frontend/src-tauri/icons/icon_32x32@2x.png": "90318785bbe5dd76f1d346b795c9f40f686e6e87ed6fa2f32c542ccad5a7c549",
+    "ZhiHui/frontend/src-tauri/icons/icon_512x512.png": "77e236ae7a4bce96895519bb3a1445615394e8c66fbe051d57824996f68e909b",
+    "ZhiHui/frontend/src-tauri/icons/icon_512x512@2x.png": "c1bd094c06270dc00ca1cdad0e23b527edbde612fdf48ec5390db3b4d9d750ee",
+    "ZhiHui/frontend/src-tauri/icons/ios/AppIcon-20x20@1x.png": "addd239d1e40661cf45df5ba6f9da1546be141f3fb19dfbcc10f9613fbb21c6a",
+    "ZhiHui/frontend/src-tauri/icons/ios/AppIcon-20x20@2x-1.png": "0c1350130839bb250219abda133845aff594f4063c2314c55095765e8bffefd4",
+    "ZhiHui/frontend/src-tauri/icons/ios/AppIcon-20x20@2x.png": "0c1350130839bb250219abda133845aff594f4063c2314c55095765e8bffefd4",
+    "ZhiHui/frontend/src-tauri/icons/ios/AppIcon-20x20@3x.png": "8a5ee4b582168b1fa377c46b42a7f177f507c5fef8b912cd79ee81a287d40f8e",
+    "ZhiHui/frontend/src-tauri/icons/ios/AppIcon-29x29@1x.png": "203a2dfcc8f752c1e549cc028d64aed567784fedc498bfc7b974958df4f0d074",
+    "ZhiHui/frontend/src-tauri/icons/ios/AppIcon-29x29@2x-1.png": "b3297443933232d811826a9970ad2c26eb62fd48ca74727a51e6aaca5811b225",
+    "ZhiHui/frontend/src-tauri/icons/ios/AppIcon-29x29@2x.png": "b3297443933232d811826a9970ad2c26eb62fd48ca74727a51e6aaca5811b225",
+    "ZhiHui/frontend/src-tauri/icons/ios/AppIcon-29x29@3x.png": "aea211d390d5debfe08d203abd28a05bb8077ced95c4f4927b5f3eca7d790e20",
+    "ZhiHui/frontend/src-tauri/icons/ios/AppIcon-40x40@1x.png": "0c1350130839bb250219abda133845aff594f4063c2314c55095765e8bffefd4",
+    "ZhiHui/frontend/src-tauri/icons/ios/AppIcon-40x40@2x-1.png": "e267e6fe904450190d1d7076e3e339d5811229f1f01506d2049097c3f49bee54",
+    "ZhiHui/frontend/src-tauri/icons/ios/AppIcon-40x40@2x.png": "e267e6fe904450190d1d7076e3e339d5811229f1f01506d2049097c3f49bee54",
+    "ZhiHui/frontend/src-tauri/icons/ios/AppIcon-40x40@3x.png": "72495289d072fbaca7f39d14437b9785d55c9b51ec7f3503cf59c62971462bd5",
+    "ZhiHui/frontend/src-tauri/icons/ios/AppIcon-512@2x.png": "d76e12028a85d626cb871c195a617f14eecfd517d06fc6c5b1921d3302a5d033",
+    "ZhiHui/frontend/src-tauri/icons/ios/AppIcon-60x60@2x.png": "72495289d072fbaca7f39d14437b9785d55c9b51ec7f3503cf59c62971462bd5",
+    "ZhiHui/frontend/src-tauri/icons/ios/AppIcon-60x60@3x.png": "c9d6fce83dec5b19339e3169b1b5050cb2e7c72b06fd35a85b6c8ce1361b6c83",
+    "ZhiHui/frontend/src-tauri/icons/ios/AppIcon-76x76@1x.png": "7d3d2af0e94123be0858bce14998af3d5b54315893cf00b3788e9335d9ee9002",
+    "ZhiHui/frontend/src-tauri/icons/ios/AppIcon-76x76@2x.png": "986a10591ae320845f3f2267b1d777c6804f53ded87704b8976bbd746594a574",
+    "ZhiHui/frontend/src-tauri/icons/ios/AppIcon-83.5x83.5@2x.png": "67279f6b0dfe49091567c7bb57d6bf0d2d1a4d536db257abadfaef14dc8c4665",
+    "ZhiHui/frontend/src-tauri/migrations/20250916100000_initial_schema.sql": "1eed8720bfbec937b7f5032f61db6ec78411ae7cd9c37e5f2e158cfe83fe2b65",
+    "ZhiHui/frontend/src-tauri/migrations/20250920155811_add_openrouter_api_key.sql": "96839c8dd47fa1de98595deff59080efcb850fd5222cfb2bd659aabd71f381d5",
+    "ZhiHui/frontend/src-tauri/migrations/20251006000000_add_audio_sync_fields.sql": "eab71c0b6723574278f3c97dda2159905841a620eb9f5b0a57787a22a4bc4cfe",
+    "ZhiHui/frontend/src-tauri/migrations/20251010153942_add_ollama_endpoint.sql": "72538e9b6c382106687d0083443c7c5d01f254fc3d60004bb96c665549256665",
+    "ZhiHui/frontend/src-tauri/migrations/20251101000000_add_summary_backup.sql": "e35f579a753f2a3011a20507ce62f58b5496d6967cb5dee211a043023249ac21",
+    "ZhiHui/frontend/src-tauri/migrations/20251105120000_add_pro_license_custom_openai.sql": "1addc77cf5f14b4778ea44ab7a04875946a6332b550bb83346f0876c05af13f0",
+    "ZhiHui/frontend/src-tauri/migrations/20251110000000_add_grace_period_to_licensing.sql": "bc8e5ede41ac5d1abeebf323ea302aec6267587d0f918d24186601105a4126b7",
+    "ZhiHui/frontend/src-tauri/migrations/20251110000001_add_speaker_field.sql": "fe6d59369e9b994f066741745527670eaed49f767ca0daf1098902e29a831dff",
+    "ZhiHui/frontend/src-tauri/migrations/20251223000000_add_meeting_notes.sql": "bef41b8e452806ebc0fc7139fa89a8ccf228a3221e09c42bbbac7899c3ae2680",
+    "ZhiHui/frontend/src-tauri/migrations/20251229000000_add_gemini_api_key.sql": "57f8116122aa488219f1c89d010833d1512755aa86cb8bb1afe7681950260bf2",
+    "ZhiHui/frontend/src-tauri/migrations/20260726000000_add_transcript_source.sql": "8cca2ae446bd321bd97a262c2a47123b5e23860cdfc7716b1e97f3a44a5da9a6",
+    "ZhiHui/frontend/src-tauri/migrations/20260815000000_add_license_state.sql": "d2812911d228ee6932d9e5c4c6b9c13d7a9e55b99e61c4c1bdc5530550d83edf",
+    "ZhiHui/frontend/src-tauri/migrations/20260816000000_add_asr_language.sql": "69e69ed6f576cdefcf604a5f477c3f40f069e4ebe7c2160bf68c44a30fd3a4e4",
+    "ZhiHui/frontend/src-tauri/scripts/sign-windows.ps1": "9aa44c9ad1bbf3e4d1e8d42d8548f250e95d5c271bff2d8a1d2c1677cb5950c9",
+    "ZhiHui/frontend/src-tauri/src/analytics/analytics.rs": "1a0e9d67972b381fcbfdc8a261b798897d5775285bddc81321dd2e3372cffc43",
+    "ZhiHui/frontend/src-tauri/src/analytics/commands.rs": "e8e57f524ddbd71b2a9973009f852c9393b97b7798ffb4c0162306bbc230ce3d",
+    "ZhiHui/frontend/src-tauri/src/analytics/mod.rs": "20324f63b6a2ed5981bfd282bb5a776392de5edbfd1d11f8515bc99224c6893d",
+    "ZhiHui/frontend/src-tauri/src/anthropic/anthropic.rs": "01fbbab8ac4aeb372fc636cd7d34d80865ad4fee227257fbc9df4eb50b0ab00b",
+    "ZhiHui/frontend/src-tauri/src/anthropic/mod.rs": "61d1708cd7d09b7d52407d3843148b7f54608e2abd7c84636ea3d21bcd7a7843",
+    "ZhiHui/frontend/src-tauri/src/api/api.rs": "9c22308a48da90bd18166865bc92cdc48575a7f3feec125566f3b414d6da2002",
+    "ZhiHui/frontend/src-tauri/src/api/commands.rs": "ac89ad25839c18fd01785a25879d7eb82feedd4e549ed30151f25228d0d08baa",
+    "ZhiHui/frontend/src-tauri/src/api/mod.rs": "08a82bf9a54ea345bea3ad6b71322c15ddfdb69e3092391e266bfd35a5c4af76",
+    "ZhiHui/frontend/src-tauri/src/audio/async_logger.rs": "de3ed949117511c1254e1b6beed6d4772c5a3b178c7a217e8b52cb9cc6dca4b9",
+    "ZhiHui/frontend/src-tauri/src/audio/audio_processing.rs": "d965123fb27a81e953e3051f6be03fcda27ba19f83b1a0cbc1747967176b59c7",
+    "ZhiHui/frontend/src-tauri/src/audio/batch_processor.rs": "cf0170218661972b9ba0ac461cfd49cfff77439f5f357c709a0883283e5b7fea",
+    "ZhiHui/frontend/src-tauri/src/audio/buffer_pool.rs": "c1a13f586003f1a1a4e8dd192ce40eda4c8bfe321bfe9a728ea411f74f06ffbd",
+    "ZhiHui/frontend/src-tauri/src/audio/capture/backend_config.rs": "d469b31c5c8a10882772775bc1866bb4027ad48c6d1a39c37cef954bb02e8f86",
+    "ZhiHui/frontend/src-tauri/src/audio/capture/core_audio.rs": "86092c6ce450b0faa0f8e176f9455b5f6ca45000c489b6d6f89a284127907729",
+    "ZhiHui/frontend/src-tauri/src/audio/capture/microphone.rs": "1cdf70de80be5fdd194b77b6ceaed8206f7aa70affd3f4a9151428df97392c4e",
+    "ZhiHui/frontend/src-tauri/src/audio/capture/mod.rs": "6715bc74ac0cb84d194f939dac380e9119f3d61af62d8615bfdba33500936369",
+    "ZhiHui/frontend/src-tauri/src/audio/capture/system.rs": "975e498b22c7d5d2c4c486204773f782cb09b10ea9fca71db9fd904eccc0cc8e",
+    "ZhiHui/frontend/src-tauri/src/audio/common.rs": "5991f5b56cd628840a424c112d87728c8ab8bc7103624b99292f039c7f240259",
+    "ZhiHui/frontend/src-tauri/src/audio/constants.rs": "7362064439058e008e5b4430e4a8b139e8f93750923e192133dcdc8fafa5357f",
+    "ZhiHui/frontend/src-tauri/src/audio/core-old.rs": "8c8103c401e786bd2559b5aa0a4f8abba2a480ecf79489f209757ec652ae0183",
+    "ZhiHui/frontend/src-tauri/src/audio/decoder.rs": "475adda6e8679625801bc8dac11f54e4caf83255346f202a3e3bd95bfa5ca316",
+    "ZhiHui/frontend/src-tauri/src/audio/device_detection.rs": "2afe3249fe0f219a39cae344801234f667b073697c75140c45b2569ad3674fbc",
+    "ZhiHui/frontend/src-tauri/src/audio/device_monitor.rs": "c6204bd42015f8736b9b9855d17c2d850bf07606db74d2a27a9f12cab64728ae",
+    "ZhiHui/frontend/src-tauri/src/audio/devices/configuration.rs": "dd6e2c963dd78b28885a65e96bc31281aaeaa05a945d0a71c8c50253010cd444",
+    "ZhiHui/frontend/src-tauri/src/audio/devices/discovery.rs": "7e4aa16f459e0b47a240f05cf183145afa045715126517db71eac1d8b2442b12",
+    "ZhiHui/frontend/src-tauri/src/audio/devices/fallback.rs": "bd43358ad021b8c6345ebb0504eb42a5cd55edc987e00579c7c43323a13a6336",
+    "ZhiHui/frontend/src-tauri/src/audio/devices/microphone.rs": "c3aeb58a22ed0386baa5f1b276321d6e4ae0d2b2a5e48bf6e9c6e49d3cf86c29",
+    "ZhiHui/frontend/src-tauri/src/audio/devices/mod.rs": "357d1febe8b60038b3c41f5b3c0c4433e1928e482d638f0bba849e4fdb752fa5",
+    "ZhiHui/frontend/src-tauri/src/audio/devices/platform/linux.rs": "2a53296ce7f2e6334b08768a466eb7ed43ae031f88c6281e5a46d360b257e890",
+    "ZhiHui/frontend/src-tauri/src/audio/devices/platform/macos.rs": "0fa5216e1746cb9e67d3f70ace220e2a668bdf8e4f998ed6e13f5e262e04d827",
+    "ZhiHui/frontend/src-tauri/src/audio/devices/platform/mod.rs": "cf450c2d62ad855a798f7ed2722d127808d6a677ecf5338dd20b1001a5e70bb4",
+    "ZhiHui/frontend/src-tauri/src/audio/devices/platform/windows.rs": "b4de00c68356b94a25f92b5783fc981846abfb375c6ec11d236ec7533dd8b025",
+    "ZhiHui/frontend/src-tauri/src/audio/devices/speakers.rs": "34f63635cbdd8b1f8b044c3c82ee7e178eb3ac8fb774c5c2b7e39d1a9a8f8669",
+    "ZhiHui/frontend/src-tauri/src/audio/diagnostics.rs": "0ba9863dbeb44f238a6152d8c1e8418c777364878bb7b36fd5c3623fdbf3ef5c",
+    "ZhiHui/frontend/src-tauri/src/audio/diarize.rs": "1e6227497a752489ccca03d75b10ecd481fc423d4af3b506f97dcd0e2652a2a9",
+    "ZhiHui/frontend/src-tauri/src/audio/encode.rs": "36747b73161c11ad303886945dca0c16b38dc7206c125fcf5d1f0a7b18619beb",
+    "ZhiHui/frontend/src-tauri/src/audio/ffmpeg.rs": "6a7090f07fe016f0adc0400abd9e9bb6d81baa53b955db38036a4251563b044b",
+    "ZhiHui/frontend/src-tauri/src/audio/ffmpeg_mixer.rs": "f2aee094955bbcb74eef0a378ae8f0834044171c5738486db713e266feef6dc3",
+    "ZhiHui/frontend/src-tauri/src/audio/hardware_detector.rs": "73d4957b9e28c277a790d5a6e555e083f08d5ed2b4bc224dc5bc3c9229169554",
+    "ZhiHui/frontend/src-tauri/src/audio/import.rs": "602bf8e9a9e415147504b440b7f5ac41369a0d828b9d9aa81f36b5c7ae72e006",
+    "ZhiHui/frontend/src-tauri/src/audio/import_queue.rs": "019c822e76f7895ff7867467c3fe7cf467f4c9211d71dff0502dd8cc601b5e93",
+    "ZhiHui/frontend/src-tauri/src/audio/import_text.rs": "5a140375e660086922ff47e6fcd2447d1173251aa3e137db7846edd5d7f27b82",
+    "ZhiHui/frontend/src-tauri/src/audio/incremental_saver.rs": "c8309166360b5f8887122d417fbe5dfd87ba29e803b45ffbcb6fc3e048486ecb",
+    "ZhiHui/frontend/src-tauri/src/audio/level_monitor.rs": "ec9b32eca752bd28d938e05d606cb8cf58984ea1d09826072bb9022b00c67957",
+    "ZhiHui/frontend/src-tauri/src/audio/mod.rs": "d649e63b9f5f52049a3d884dee70c23d41d5fb4b173ebe3487ddba99c9d57c11",
+    "ZhiHui/frontend/src-tauri/src/audio/permissions.rs": "59c7de25be48f0bb77c0222cf0c7ec71d7dd952af6dd6ae34f2a9646f2d93696",
+    "ZhiHui/frontend/src-tauri/src/audio/pipeline.rs": "d6b94928ef7ecc5e6cc950c2ddbb6fccbd05e588543eb8cbf5063596ec123b88",
+    "ZhiHui/frontend/src-tauri/src/audio/playback_monitor.rs": "048c578b9662c68d68247b5932f144a662868cf9c962181a5edf13982942cbb1",
+    "ZhiHui/frontend/src-tauri/src/audio/post_processor.rs": "e763a1ffb32387a955b3ca071252e7d3dd09f69e5dab0e14c524bb16cf62e395",
+    "ZhiHui/frontend/src-tauri/src/audio/recording_commands.rs": "5a7f0bf31ea1b8663160477947100e12893bf7b979319398d11410739196da72",
+    "ZhiHui/frontend/src-tauri/src/audio/recording_commands.rs.backup": "39763847651921e5aec147b667b2f99554f0b50617214117795afd682d27f11f",
+    "ZhiHui/frontend/src-tauri/src/audio/recording_manager.rs": "613dc171caf42451eea2fac921a30400c99daa8ee35bd29022a86caba1673d9b",
+    "ZhiHui/frontend/src-tauri/src/audio/recording_preferences.rs": "818538a113e77349b0509feacafd0c7ee8e506e86d886e6c30ae9ec7b10834e2",
+    "ZhiHui/frontend/src-tauri/src/audio/recording_saver.rs": "8bfa15671b84e194f084de3dc72bdc38755a7f68c54de75a06be8979bd885998",
+    "ZhiHui/frontend/src-tauri/src/audio/recording_saver_old.rs": "ee1cea092e48453ece5d05c951953378701c90c2b5d5e9152e983d36318279e9",
+    "ZhiHui/frontend/src-tauri/src/audio/recording_state.rs": "f389fcbe53aa5c34f227d82ffc9d5a4731d2a4dce2f2f46ce091aa97e66c07ec",
+    "ZhiHui/frontend/src-tauri/src/audio/retranscription.rs": "25e6bb18ff15feed0cabfb8082ae09a9e5a27f21ed6d39aa7701a56381b8b2fe",
+    "ZhiHui/frontend/src-tauri/src/audio/simple_level_monitor.rs": "5635e677d59a1f015fae97f36b43515448d69486ff041cfc4df3ac93f77f9906",
+    "ZhiHui/frontend/src-tauri/src/audio/speaker.rs": "9bc3bfa1b7b037e79612d001c222429fafc1cd65759e02fe61ca02d71fcfea17",
+    "ZhiHui/frontend/src-tauri/src/audio/stream.rs": "2a4f87bae9730e844e951fe970d1de9f996ee6242cdb8c6fcacf21086aa6dd24",
+    "ZhiHui/frontend/src-tauri/src/audio/stt.rs": "bd90df66aba7f030e7ea587d51b734f1ddcdb06b6430da8895678eb2c36879ce",
+    "ZhiHui/frontend/src-tauri/src/audio/system_audio_commands.rs": "f272583bebacc9805178999db6f3be5b8303e09e3ed2c594500e4b68a890e35d",
+    "ZhiHui/frontend/src-tauri/src/audio/system_audio_stream.rs": "d8ad8500c2e82d1312c163e3c2bc7c081461c8fbfeb2dfaf6417d6c026be75b4",
+    "ZhiHui/frontend/src-tauri/src/audio/system_audio_types.ts": "e4978d17c0915849d6de7039ccbece23772a4ee311d67a1c43ae7177cb1b66cd",
+    "ZhiHui/frontend/src-tauri/src/audio/system_detector.rs": "25ccbb35bb9c618df1983bae79b10f8554a5906e93171fdd43e3ac9144931218",
+    "ZhiHui/frontend/src-tauri/src/audio/transcription/engine.rs": "fa97757f6a09e38c1336c981c23dbd54c04b88de6cd36d3a4c522ef65d439f41",
+    "ZhiHui/frontend/src-tauri/src/audio/transcription/mod.rs": "6a755b4c9f91be9f655cc3e0045b67a6b6ff7a7da97686399afdf93037c4beb2",
+    "ZhiHui/frontend/src-tauri/src/audio/transcription/parakeet_provider.rs": "e269639194d86e32ff70f28914f4dc7b9f74a8b822d96ea8fc6fd0bdf111e79b",
+    "ZhiHui/frontend/src-tauri/src/audio/transcription/provider.rs": "cfb67bad45653d48f48937385cfd040ba543e6e5dda3b2b840e699a85003d555",
+    "ZhiHui/frontend/src-tauri/src/audio/transcription/sensevoice_provider.rs": "a179bcb770ceb0cf1913c5f33a6aafc20716cf4458a9f14d92ccafe1ee92d0e4",
+    "ZhiHui/frontend/src-tauri/src/audio/transcription/whisper_provider.rs": "120594fd43422427b8b56eaed9b3dbd18eefe2ba35eb4520555acae6c1382429",
+    "ZhiHui/frontend/src-tauri/src/audio/transcription/worker.rs": "8babd79df0b26aaa587b6210b3dc3b162ebd2e63db3735380163a136cea8a871",
+    "ZhiHui/frontend/src-tauri/src/audio/vad.rs": "fd8ba53f556348841fd82a94f45775b967a3ff9330800cb39a8a1650bec099d6",
+    "ZhiHui/frontend/src-tauri/src/audio_v2/compatibility.rs": "bf3c627a4131f09bee2ff9800e37f6b3affc4b5a6dad60f8f05fcf4370b24da4",
+    "ZhiHui/frontend/src-tauri/src/audio_v2/lib.rs": "7e74c4b15292916fe822f52367e1c40ecc9964c9c1b2a273c42904ff97128bfa",
+    "ZhiHui/frontend/src-tauri/src/audio_v2/limiter.rs": "6a97a4cc57cf8c4d8aa33aa7284668fd8165feb0a5d4a1a228c48adffc1aeabe",
+    "ZhiHui/frontend/src-tauri/src/audio_v2/mixer.rs": "2f7c79ebb143bccdde2de1edd55e1984fc6b168e86066d7005139cce2352ed8e",
+    "ZhiHui/frontend/src-tauri/src/audio_v2/normalizer.rs": "d1006a9c319975dbe52317c009eeb0b922da8e14139baed54109eeb229fbeb77",
+    "ZhiHui/frontend/src-tauri/src/audio_v2/recorder.rs": "5c844bc2e8d8f76f433d38db552f7a15c002a655bc57fd1b205eb716c1177963",
+    "ZhiHui/frontend/src-tauri/src/audio_v2/resampler.rs": "7a95634a6235e833f387cc9e753e3b8498016d44af921c5183123ff6b54433c3",
+    "ZhiHui/frontend/src-tauri/src/audio_v2/stream.rs": "f4a9117b4ad3cb037ed2fe8d9a5d8f034e8c13c787588e37dec402ed5e475d9a",
+    "ZhiHui/frontend/src-tauri/src/audio_v2/sync.rs": "88ba945f18edc7d1e4d7fc9065f4a7192c8f942582fcef7a82f23f4620a311d7",
+    "ZhiHui/frontend/src-tauri/src/config.rs": "ae4a664b91d68e519ee9ad13daea900cca63ccffcb73cad7d322168d9af385e4",
+    "ZhiHui/frontend/src-tauri/src/console_utils/commands.rs": "4e77294c0e87a03cfcb3dafc99f99f40fb4807e43902f7c87bb2dc9026b0a333",
+    "ZhiHui/frontend/src-tauri/src/console_utils/console_utils.rs": "ca2cb6b349729daf8e653e372891c40001f021516eba6633abf06dd1dc87e68f",
+    "ZhiHui/frontend/src-tauri/src/console_utils/mod.rs": "1579410a1a1c1f70a025b27e116c1b5e9a9c2613b89e45e84a50536c962af9fc",
+    "ZhiHui/frontend/src-tauri/src/database/commands.rs": "fb981ac1923167d53d116c9e6feed6f6d931f3caef7c27a5d4712df865e2b404",
+    "ZhiHui/frontend/src-tauri/src/database/manager.rs": "59b8f6af45d9e4f591f71e7680ad2d2fee913b0f478ede9bf65855ac60c6a758",
+    "ZhiHui/frontend/src-tauri/src/database/mod.rs": "aff1794a2a746671c1cdd0e693813fabb7cc42562696ead241de7c2793abee91",
+    "ZhiHui/frontend/src-tauri/src/database/models.rs": "74a130cc56cb6680eeac0bb2a417c6e7f89c6fe333b327d2247ac29ebf67d67e",
+    "ZhiHui/frontend/src-tauri/src/database/repositories/meeting.rs": "525073b8ce71113eef0d3048147fc5b01304e3b5062fb90e58c2215b7d8e8f8b",
+    "ZhiHui/frontend/src-tauri/src/database/repositories/mod.rs": "1893199dd0c27ee65ef39a6f244e40f7d5039d6e689ec644af137ac917327912",
+    "ZhiHui/frontend/src-tauri/src/database/repositories/setting.rs": "c00acdcad90266ce11a388d0629cba01b2ed4e76fe1c2e6c4394445ed5f455a4",
+    "ZhiHui/frontend/src-tauri/src/database/repositories/summary.rs": "7889a4b500feaa216d850df8504a4c8c5748682e84a5c203bee9ae1e07876c6c",
+    "ZhiHui/frontend/src-tauri/src/database/repositories/transcript.rs": "6a2c6b738f4b07c9eb98eaac8bed49c759c94edde9e61eff9941670bd29495a4",
+    "ZhiHui/frontend/src-tauri/src/database/repositories/transcript_chunk.rs": "2d1e9955339b1cf5e16ccbd529d2888c6a5b81f111d7bd79ad1aa4d49be1cce0",
+    "ZhiHui/frontend/src-tauri/src/database/setup.rs": "d1b6f934f9ec34ccfd7a7a1d18326a38463bc6e37f11e1aa34da8dbf6485e6b1",
+    "ZhiHui/frontend/src-tauri/src/groq/groq.rs": "70b86c45cc1242ac7bc860e1b3264a1b545dd60a42cbd2d4683cd5b75778dcc6",
+    "ZhiHui/frontend/src-tauri/src/groq/mod.rs": "dfe0013a8343756d39d21c4e726ba76d61274157e848acdd63854723cecdcc68",
+    "ZhiHui/frontend/src-tauri/src/i18n.rs": "0e08a9f668d24dd1ea23e6c7a5f42819a120134b82a73d2c88bd9f9edcd36c26",
+    "ZhiHui/frontend/src-tauri/src/lib.rs": "e04898659a0b72f0b2af8482a3f6e8772562d79ea85cf6ab1b742c2c27bf0684",
+    "ZhiHui/frontend/src-tauri/src/lib_old_complex.rs": "a8a3d46c7651ab6ce78cc77e4eecced76f4815b7af9f2c380e39a7ab1c591be8",
+    "ZhiHui/frontend/src-tauri/src/license/client.rs": "ffbb5923067fa63d1d575b1b4d995910afb738cb51703b378dd912f2ce25045e",
+    "ZhiHui/frontend/src-tauri/src/license/commands.rs": "885a61effee08c5c5441da3a36ec38b22abd93d9390307873985abca314c92fd",
+    "ZhiHui/frontend/src-tauri/src/license/fingerprint.rs": "901777f39a40d246d5209d1a00df37962de14705838d703e3e76e3b31c677805",
+    "ZhiHui/frontend/src-tauri/src/license/gate.rs": "ef9eb10a3163909edb0b6a18fe0d85524e7dae40fe37fe6896cb336b60ae5f05",
+    "ZhiHui/frontend/src-tauri/src/license/mod.rs": "1aa86850d6f4a79275ce752c4f93fc07c847328d95009babf47169146d6f3406",
+    "ZhiHui/frontend/src-tauri/src/license/server_config.rs": "0d5a87313ed5d4730adab951fe4c603784d28e6480a02f4d12efa197184ffdc4",
+    "ZhiHui/frontend/src-tauri/src/license/storage.rs": "48fa5583f17d46294ef048440989f3dbee3e948b89644789182d099beb747a85",
+    "ZhiHui/frontend/src-tauri/src/main.rs": "fa12f40c033eac2a80e453573a7fffb6d6800cde059405f8b83ddac6f5b71030",
+    "ZhiHui/frontend/src-tauri/src/notifications/commands.rs": "a2c9d401fd72fddf6c7547fed6f7c2a4ba46b0c53833633eab18f578117390d0",
+    "ZhiHui/frontend/src-tauri/src/notifications/manager.rs": "bbd1b2407f5ea37b25b28f80dfc9874de8fa77a7a44d88705cc57f3e14a74490",
+    "ZhiHui/frontend/src-tauri/src/notifications/mod.rs": "15b8955fbb66558931d116bf1a96b66a74afc351f04246bc7ec2c4ff83dfb6e7",
+    "ZhiHui/frontend/src-tauri/src/notifications/settings.rs": "00c7bc499c4992b23df2c72b5fb5bcfaea0df1c59cae25e63f0e54ce58c7b9b0",
+    "ZhiHui/frontend/src-tauri/src/notifications/system.rs": "643ac2f44f00532225aa39e2635b262da15efe9eaf020b606c477584b1627bde",
+    "ZhiHui/frontend/src-tauri/src/notifications/types.rs": "5430a5a1afe48a7fdd2f31960164c72b8537bf9ecd85c9cd6e20d59cb7b0b6df",
+    "ZhiHui/frontend/src-tauri/src/offline_import.rs": "dd98a51afab86306459f68cb802a916a647ef10cd6bd9afc45ae3a9043ca6b30",
+    "ZhiHui/frontend/src-tauri/src/ollama/commands.rs": "4fdbd898ca565408e9bb0250cf83ab76fd470fc8377f2b8c55f48e01c397dd61",
+    "ZhiHui/frontend/src-tauri/src/ollama/metadata.rs": "b6c295776199bd0681a7f14611433550de004792bcaf4cdbb5c9cc1cd43fbef1",
+    "ZhiHui/frontend/src-tauri/src/ollama/mod.rs": "358ede6816981dd317e11c231eddc35c2ee0c1b37f842a449b35db5ec2403100",
+    "ZhiHui/frontend/src-tauri/src/ollama/ollama.rs": "e5228b264ceba99a75b85a15a52e701591a7e2c3b80e54ce37d64aba9477157d",
+    "ZhiHui/frontend/src-tauri/src/onboarding.rs": "29dd9bb2242920ac0d7baaa6243ed1db9c28319b1ed1b76c0f71961b96930d18",
+    "ZhiHui/frontend/src-tauri/src/openai/mod.rs": "036000f6c2e81aba55f8d1bb2530e030560d58bc1fc5f6259895e45bf0d49458",
+    "ZhiHui/frontend/src-tauri/src/openai/openai.rs": "2582f4afbca6881ce207806f5b66046a24ef8f3c3ab5b85ac0e816fdf403ea8e",
+    "ZhiHui/frontend/src-tauri/src/openrouter/commands.rs": "3dcdae9b414c52f84bec415ced2e346f4de0a0df4f19374cd5e017be254af4c5",
+    "ZhiHui/frontend/src-tauri/src/openrouter/mod.rs": "a5d3df8bd1423961c2c0d1dc8f459e41068b91c67920c1393e7096af83489428",
+    "ZhiHui/frontend/src-tauri/src/openrouter/openrouter.rs": "704eda6cf35edc11fe9c2492255ae1e10358b502a72e003f606d10465f2f3768",
+    "ZhiHui/frontend/src-tauri/src/parakeet_engine/commands.rs": "f7919376b68baa2e6c1dd3b2afd97df284ab2a02b923cee644e83e8387697167",
+    "ZhiHui/frontend/src-tauri/src/parakeet_engine/mod.rs": "1efed3f676c5def4bdc140addceff277354a526054ace8c705bcaae598d26f0d",
+    "ZhiHui/frontend/src-tauri/src/parakeet_engine/model.rs": "e88c4b6f31506007940fa1a237bbce18e77fc8c2fefd61662c62fd4d90973104",
+    "ZhiHui/frontend/src-tauri/src/parakeet_engine/parakeet_engine.rs": "e53019cac8a284d29694230155e5fd189748823f5d096572de44fdb7df5f2a74",
+    "ZhiHui/frontend/src-tauri/src/sensevoice_engine/catalog.rs": "583e2dac1dd6b4ca05cb8004cba34083cd249c4b93e6180a8399378aea90b77b",
+    "ZhiHui/frontend/src-tauri/src/sensevoice_engine/commands.rs": "17185909f262d2bfa16420cce509b4a66878c321429607903190f8bd84d775ed",
+    "ZhiHui/frontend/src-tauri/src/sensevoice_engine/engine.rs": "bb6f3a3f69d55c109a62fb8f99b4b9867d2cbaab3b6c1b7f2e2df4c89a94985d",
+    "ZhiHui/frontend/src-tauri/src/sensevoice_engine/mod.rs": "3e2473f03d2f2eaa120f51b70021ec413c2d9559e0e4d546c672df36df948839",
+    "ZhiHui/frontend/src-tauri/src/state.rs": "bb2067339b75659e7958cf57803dda4f0a1ab444282d3db44b85794b3957de29",
+    "ZhiHui/frontend/src-tauri/src/summary/commands.rs": "f9a39567c89dc201ea1292107f5fc423af276cb1fc4e15a7f5aefad7be49d769",
+    "ZhiHui/frontend/src-tauri/src/summary/language_detection.rs": "8aa965d71566751f969572c51f4cc6d3c403df7406514e9ad8bed2dd76bcc8a9",
+    "ZhiHui/frontend/src-tauri/src/summary/llm_client.rs": "9d7e3ce75ab52a7b66167a2df7813fa68b55ec140f60701efbce4476e4e06ab6",
+    "ZhiHui/frontend/src-tauri/src/summary/metadata.rs": "5bc1e73f38339548e9f6a4d94e843f2dafb11fb563cfe07b70d15ae1c4247925",
+    "ZhiHui/frontend/src-tauri/src/summary/mod.rs": "e48e454921dd89ddee5ea14f323a4d533d27c4e139335c4a30bdc9bf7e0e11f4",
+    "ZhiHui/frontend/src-tauri/src/summary/processor.rs": "78b731a376ad8b3672860c687595ba690be7e1b01ed25a2bc125b3702e9754cd",
+    "ZhiHui/frontend/src-tauri/src/summary/service.rs": "f06a42a3f83b34a4899c66c1118f8e31e8f8ff9fdb5ec63c91e15846d7ef49ec",
+    "ZhiHui/frontend/src-tauri/src/summary/summary_engine/client.rs": "ecc839be7b54737d1f04a5cb33da0d5e7e8ef306975a9bd89d1c2ac0d7b9ccd4",
+    "ZhiHui/frontend/src-tauri/src/summary/summary_engine/commands.rs": "aa7727ff4ba24ffdb9decf7c16a4420c79a7da63d792333594a2313d7b9889d0",
+    "ZhiHui/frontend/src-tauri/src/summary/summary_engine/mod.rs": "5de0666de6378fb536253b43a595c1a3c441607020a82499cf4710ab4d922ffe",
+    "ZhiHui/frontend/src-tauri/src/summary/summary_engine/model_manager.rs": "cfd8092ff90a0dac29c9344d3f202ec762aedc325f3ae9b4ee4900ca7920d0a5",
+    "ZhiHui/frontend/src-tauri/src/summary/summary_engine/models.rs": "60f0e6374389acf3a58a9e9142deacb9cd717a4df204b20b43419e63126d2083",
+    "ZhiHui/frontend/src-tauri/src/summary/summary_engine/sidecar.rs": "affea5a4bb7705271860af779ab7129b49bb5c396330b689f492f6059340e851",
+    "ZhiHui/frontend/src-tauri/src/summary/template_commands.rs": "d380824553c92db2b1e67524f243c2764db7d51432ba6da01412100133c0ab0d",
+    "ZhiHui/frontend/src-tauri/src/summary/templates/defaults.rs": "479ac4b9a36f58ecc65668db21c373336ea471173f9593fc245020e40f4c6586",
+    "ZhiHui/frontend/src-tauri/src/summary/templates/loader.rs": "f55e68f6a6497c0b9912d7667ef949d907fef18c1ccdbbec9a716d8876649cce",
+    "ZhiHui/frontend/src-tauri/src/summary/templates/mod.rs": "9ab324d9a2efd7d50dbc51ba930df7dfd52177598d9653334366e9217d7c39bb",
+    "ZhiHui/frontend/src-tauri/src/summary/templates/types.rs": "0c6bdc3a759d417c75992f7049e9a1149fd37a24db6d480b9d3b303c55c8d893",
+    "ZhiHui/frontend/src-tauri/src/tray.rs": "ac6cb82892227eb07364d4e84bf04f46fc60b9fbc4caec3a49351bfde45305ec",
+    "ZhiHui/frontend/src-tauri/src/utils.rs": "71bc1b5c6e897d78d9649f50126a7b544d9199f27eb54bb3f44aa2ebcc9545f0",
+    "ZhiHui/frontend/src-tauri/src/whisper_engine/_stderr_suppressor.rs": "e3e94165f208bfee51dc0236f76eb7fd98cb51f8dd395744db8ee130f85e5608",
+    "ZhiHui/frontend/src-tauri/src/whisper_engine/acceleration.rs": "5f6ea798a9fce0aa0e8573f0f8ab377e577a5bfcc739495812a2659ce4069bab",
+    "ZhiHui/frontend/src-tauri/src/whisper_engine/commands.rs": "83075e851b1c5f1a62112a862009505048ba1b94e4fedfa6a050ef66f79b6afe",
+    "ZhiHui/frontend/src-tauri/src/whisper_engine/mod.rs": "ffae068b9369ab67d087bebd72374903f7d421aab50c916132b5ff2394b126e6",
+    "ZhiHui/frontend/src-tauri/src/whisper_engine/parallel_commands.rs": "01978585cf3f0c545c2f308e4e0225ed9d9fd689ce3dab79ed0675f0c215b080",
+    "ZhiHui/frontend/src-tauri/src/whisper_engine/parallel_processor.rs": "2ae5e60da35d603f9615780778a46afce729e43f154b124f4f2612202dec114a",
+    "ZhiHui/frontend/src-tauri/src/whisper_engine/system_monitor.rs": "9800b834c09e0dc4eaba1d9fc405401de4425bd68d4e92f9fce994db75e68ffc",
+    "ZhiHui/frontend/src-tauri/src/whisper_engine/text_normalizer.rs": "cca2ecf784569fde36b3884894cd66e091a34431177676c55d2160bcb949736b",
+    "ZhiHui/frontend/src-tauri/src/whisper_engine/whisper_engine.rs": "a0071f1e28f40a0e7353970ed6d366ccbd7d4475ac3237ab6300fb34b85528b2",
+    "ZhiHui/frontend/src-tauri/tauri.conf.json": "15c570fbd302cc67338aae58ebe26c0ee53d3a9a1973bb779647ff792cf1df09",
+    "ZhiHui/frontend/src-tauri/tauri.offline.mac.conf.json": "1194d50b98f313134753574ee2c4b410793f647d817cef68fe9f8885f43c2e84",
+    "ZhiHui/frontend/src-tauri/tauri.offline.win.conf.json": "aecebece1a729b62759e0cb850ff437c9a9b3c31675c0ba3d0ea8a268f2f7fbe",
+    "ZhiHui/frontend/src-tauri/templates/README.md": "0aa9c448beca3c23449b1cdc6cc56884814b5dc978586805f71dc09fbc48d50f",
+    "ZhiHui/frontend/src-tauri/templates/daily_standup.json": "47203d7f6d95c3a2b01f392a5ee2129bd4aaf2b5447d9fa3938b391843c5cc4e",
+    "ZhiHui/frontend/src-tauri/templates/general_document.json": "6b8a83d3e29bf8b5b64a52abe37a2d9a6f29734c0ca3a34e41034c722b21ae27",
+    "ZhiHui/frontend/src-tauri/templates/project_sync.json": "8f86750aeb63efac0d270a72b69af7abcd6ef8c33240377da01c362ed196c5e8",
+    "ZhiHui/frontend/src-tauri/templates/psychatric_session.json": "b55b071f1f712b54182a40cbc4d00a9d7fafe8f9f0b2ee122072b4251e3180da",
+    "ZhiHui/frontend/src-tauri/templates/retrospective.json": "d8066e66f77936b6aebc1e80128faf007cb276753d098a95d3c0b49c1f17d18f",
+    "ZhiHui/frontend/src-tauri/templates/sales_marketing_client_call.json": "b584a93aa1fb018caf2ede646fd6283dbff2c8d463c7b1768e47019cb8fd6179",
+    "ZhiHui/frontend/src-tauri/templates/standard_meeting.json": "c4a3dbab3b6f111c00f9c0aa0893e2c6e7cc795db7cb07349c4daaff9321501e",
+    "ZhiHui/frontend/src/app/_components/QuickSettingsBar.tsx": "470b03f2b073d2b9ecef638c0b95a23ddecc92951e86fc348ad6b2e971d3bec4",
+    "ZhiHui/frontend/src/app/_components/SettingsModal.tsx": "7bd018ec7bf7f88fad00087cf82e4fb38c4d2ba812419a0dd64a08a2dd637b2e",
+    "ZhiHui/frontend/src/app/_components/StatusOverlays.tsx": "900e2062c3554b0a1a8be26a8ad5b319631a338d25a9609d71e00bf8955fc6e1",
+    "ZhiHui/frontend/src/app/_components/TranscriptPanel.tsx": "77be3565629f9049455f51f87f9701f1de593f813b73d812c4100be9043a4fef",
+    "ZhiHui/frontend/src/app/favicon.ico": "9a445df1d02ba4f2f5aedcfe246c5960203dc1c22fbd16d3f62eee5585c9cdea",
+    "ZhiHui/frontend/src/app/globals.css": "699db5b6f64a1191aa878d092decd3bffe09c81e246f96e726a93c1e44cae6a4",
+    "ZhiHui/frontend/src/app/layout.tsx": "84909b6c0b7fd211d59991c54d189c0b430825ef31a0e402c574d1bee4731172",
+    "ZhiHui/frontend/src/app/meeting-details/page-content.tsx": "91b3bc59e1103e32d965dbfe38183ab3e6cf70ad5850d3edb728870c0a533369",
+    "ZhiHui/frontend/src/app/meeting-details/page.tsx": "6f66a803255bac0388612e63aee4831e6f1ece31feb6863973223a1d686ed249",
+    "ZhiHui/frontend/src/app/metadata.ts": "25d3e76c123da19ba1e6a15cb5da23179221d90a71f9f73407e210d559e6a203",
+    "ZhiHui/frontend/src/app/metadata.tsx": "350083382a3545449869c29831a51d9ea7eb3cea69d97f8b3e7e20d4c41bbea2",
+    "ZhiHui/frontend/src/app/notes/[id]/page.tsx": "6cc1813b9b26ef55afa632deb146528c43710449a46435fe7f2aebdf1c213754",
+    "ZhiHui/frontend/src/app/page.tsx": "5698fb4a4067c38cb75a942ea651d5d349aa096309555d4d9aa497e041c80af2",
+    "ZhiHui/frontend/src/app/settings/page.tsx": "1c4f0a51a673ee1a3c0780d15bd00b17369d1b373fde0067f6d0a710a2f5f2ed",
+    "ZhiHui/frontend/src/components/AISummary/Block.tsx": "7f8858f7411e885df27816e368dbfbd367dc41ac444132f7261acdbcaab47b62",
+    "ZhiHui/frontend/src/components/AISummary/BlockNoteSummaryView.tsx": "1c955a155a64eddb96547aa9cced23c1ef23f68074dbd25452807eb1d2ef9643",
+    "ZhiHui/frontend/src/components/AISummary/Section.tsx": "fd37b44d80221d4d4317592071b8518ae3dc9375543a0126b2220c508daf4aa1",
+    "ZhiHui/frontend/src/components/AISummary/index.tsx": "5e019cde085fa8b516857c7afc1dec5a49428dd8f1b42276e29ab139ccf85a92",
+    "ZhiHui/frontend/src/components/About.tsx": "9d58b269507b00b556f991951a6c7cfa4153e77691ea108bc319474c8ff8c09a",
+    "ZhiHui/frontend/src/components/AddCustomAsrModelDialog.tsx": "a467b2238e8dfe2e00859825d7ba90495560ff79bedff8752d16968d0a2f5362",
+    "ZhiHui/frontend/src/components/AddCustomModelDialog.tsx": "5fa4b4b9aea352c9b6caaab7e2955c06d40100b4be543a55eb061739bfad2de3",
+    "ZhiHui/frontend/src/components/AnalyticsConsentSwitch.tsx": "3baef8011aedd3b44c769b3c8fab91a0905523fc2537e80a2dd3fe72f08d65c4",
+    "ZhiHui/frontend/src/components/AnalyticsDataModal.tsx": "4768dc43febb8d70a96d1777c71de0067b83abe559cd2f91825f32f22559dbe1",
+    "ZhiHui/frontend/src/components/AnalyticsProvider.tsx": "0137756ad2be7b6959abcc1897141956056625be8e43466134bc2699197a1ce5",
+    "ZhiHui/frontend/src/components/AudioBackendSelector.tsx": "dfa36c37fe5d282d6eda6a1b29fc3c892b18e87eb3897096190a7b62b23a4719",
+    "ZhiHui/frontend/src/components/AudioLevelMeter.tsx": "6aa113d226349a5094b3950ab8c7814d00da63743f24f3a71b6c2898d3b5700b",
+    "ZhiHui/frontend/src/components/AudioPlayer.tsx": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ZhiHui/frontend/src/components/BetaSettings.tsx": "37c933b670ce21915407d0d5b794f67fc907a9892ba9b62c0f634383a33de0e7",
+    "ZhiHui/frontend/src/components/BlockNoteEditor/BasicBlockNoteTest.tsx": "3f5e65c76fba51a3c8c0469de3e523ae521a0af91ea8cc50009c359484950a1e",
+    "ZhiHui/frontend/src/components/BlockNoteEditor/Editor.tsx": "758aaa1e8d41ac6ef1bd96ee36475a3fdd7eb9274e8a959a50dd6eceeb52c192",
+    "ZhiHui/frontend/src/components/BluetoothPlaybackWarning.tsx": "6cae9e355b999f4cb042df23bf0748f4dc3382b6f03ee46a8f98dec6b1e1094e",
+    "ZhiHui/frontend/src/components/BuiltInModelManager.tsx": "4ab63d0d0e37e50607dd2c2c519b29bc255fe2bf4d52165b4cac00400c0de017",
+    "ZhiHui/frontend/src/components/ChunkProgressDisplay.tsx": "6528c5c535339387c778164baf461cd6295238233259cbdd703cbc6a307caca5",
+    "ZhiHui/frontend/src/components/ComplianceNotification.tsx": "cff87268aa040012b011f17ef5c80806294ba906553dceff396075fb4f2e0807",
+    "ZhiHui/frontend/src/components/ConfidenceIndicator.tsx": "d51cf0a0833ea45f8f0fa0d50f09f500f3b4e002a4b2e5df8e0b5bb43638c160",
+    "ZhiHui/frontend/src/components/ConfirmationModel/confirmation-modal.tsx": "bad6816b9092d55a6426387af95c35ef0d04589bc620a0a7f5312150ae12e5a5",
+    "ZhiHui/frontend/src/components/ConsoleToggle.tsx": "0ea39b63b8f599647672afdae72d2ecbaacda21bc65f75575072f7646297848d",
+    "ZhiHui/frontend/src/components/CustomDialog.tsx": "5f8940674c7f4ba4ee9fec8a83ee2a27700fb4d4dc5c262a547e781bd8beb740",
+    "ZhiHui/frontend/src/components/DatabaseImport/HomebrewDatabaseDetector.tsx": "579043933a6f0c7bacb15801cea006f9df4680ab70019d8b940f766bf45d11e5",
+    "ZhiHui/frontend/src/components/DatabaseImport/LegacyDatabaseImport.tsx": "ac76b86b076fba903338730874b30cca0030e8a2a334b2ced04dec9af3f55d52",
+    "ZhiHui/frontend/src/components/DeviceSelection.tsx": "45f92a69a05a6d14a49c17bc56f1332247de157af7eb1b50cb51499404dad62c",
+    "ZhiHui/frontend/src/components/EditableTitle.tsx": "d62b8b256cb2943081beb8c051910ba78979c27afd5236c183d83231a19792cd",
+    "ZhiHui/frontend/src/components/EmptyStateSummary.tsx": "65c369cde39541c45be6dea3595dbf4f4ef27d944df12464f93aa1529963a905",
+    "ZhiHui/frontend/src/components/I18nProvider.tsx": "3ad297950283fe8655472b288f15f598fab86bdaa4c8346aac3092ce0236a6f2",
+    "ZhiHui/frontend/src/components/ImportAudio/ImportAudioDialog.tsx": "d45e01575034f80f112126c0b2eff28b5d852ad54771530e60d4ff002af56b6d",
+    "ZhiHui/frontend/src/components/ImportAudio/ImportDropOverlay.tsx": "d0eed1353812aac42673130d3f7fc1bb055968c7fb1ab56f481e0e3113de4490",
+    "ZhiHui/frontend/src/components/ImportAudio/ImportQueuePanel.tsx": "6048bc288fd849a3ec17b9e71556f3415a2d219155451815d1015c0ba80a9b4c",
+    "ZhiHui/frontend/src/components/ImportAudio/index.ts": "10e04dd8d4c91de3f0d567caff1e317b5cd5827bc8ad2fa2a86c926be0504e09",
+    "ZhiHui/frontend/src/components/Info.tsx": "3cf2e3ae7f9ebd31313f0d97519dc85e28a26fa8074f7cd9db7166da4fc45ce7",
+    "ZhiHui/frontend/src/components/LanguagePickerPopover.tsx": "ae09d0fae8504bf5b8197bbfaa72cac0534cd020e630d1ce43cbfae53ec02d04",
+    "ZhiHui/frontend/src/components/LanguageSelection.tsx": "fc7a7a4e7f17e97eee33ea7828ff1a93336304be0eeb251984145e424cf498f1",
+    "ZhiHui/frontend/src/components/LanguageSwitcher.tsx": "c538e33c833585cc0e425da59d2d599e36be0790e198e99bc65ea046227ace06",
+    "ZhiHui/frontend/src/components/License/LicenseBanner.tsx": "c9d5d80039b180cfebeedceee41637ec9ee2c1e8fbf5f8006243e776b3cd20f8",
+    "ZhiHui/frontend/src/components/License/LicenseSettings.tsx": "59dc0d28c847cdcce5a1a13aba647ef5e13e8487d7b2502e4070938a1fa83666",
+    "ZhiHui/frontend/src/components/Logo.tsx": "9bc01afa99557265cf0ca77d7fad4558d3bd17c452a62f851c8b3ef79cf1c8e9",
+    "ZhiHui/frontend/src/components/MainContent/index.tsx": "0dc1c70a25e571d62ac93b7f42a9f41ada5f519fb5fb775caa98c0092360c5be",
+    "ZhiHui/frontend/src/components/MainNav/index.tsx": "5c5c04300621c76c8b41ff67a4516ea8114d5628f078ffab65fb80e4c69c3f4f",
+    "ZhiHui/frontend/src/components/MeetingDetails/ExportDialog.tsx": "e0dd113cd8c793be3567e5ee51e6765673980c1b707529dcd004a04650e22e6e",
+    "ZhiHui/frontend/src/components/MeetingDetails/RetranscribeDialog.tsx": "7fef3b2da4ffb811d9f47bafd17cb2798e46919f93bd37b56d1cd87ec4607f67",
+    "ZhiHui/frontend/src/components/MeetingDetails/SummaryGeneratorButtonGroup.tsx": "94a678f3001a64bd72a25d927040584ae0bc38bd223bdfbab507d5e676149739",
+    "ZhiHui/frontend/src/components/MeetingDetails/SummaryPanel.tsx": "f6092b4fe3dfd84d576f964dba3804f6aa49d082653185a13ce6647d97993869",
+    "ZhiHui/frontend/src/components/MeetingDetails/SummaryUpdaterButtonGroup.tsx": "9f41ef83b749fcb4d46d996cfa8061b0dd01cee0046faa70da27deaab0fc39a4",
+    "ZhiHui/frontend/src/components/MeetingDetails/TemplateManagerDialog.tsx": "ac9c04a4555deb7f43bea26cab358ae7fbbc5920bd535908adef2279346a8f2f",
+    "ZhiHui/frontend/src/components/MeetingDetails/TranscriptButtonGroup.tsx": "4c7c59dce363d11ceab4471a5002468bf4d1d40ffef412f1b69db6739ae9e223",
+    "ZhiHui/frontend/src/components/MeetingDetails/TranscriptPanel.tsx": "4fab6b594da1a0f8b174e785071272201837f32ac21d0dbe8243622d4bee24af",
+    "ZhiHui/frontend/src/components/MessageToast.tsx": "29037ede3d3c21a689c84c147ca3250f0a03ad25189c48601f151c74c7e9115b",
+    "ZhiHui/frontend/src/components/ModelDownloadProgress.tsx": "bdcdbd4763d835e0806e151c51d95a7357645bc2b4c0101b4dc80c16efbf3f53",
+    "ZhiHui/frontend/src/components/ModelSettingsModal.tsx": "2de06d1bc1d6db9117f0d50f763c21cd5ec3e543676131adbf148abd2682454f",
+    "ZhiHui/frontend/src/components/ParakeetModelManager.tsx": "0f96e6723b6598cf21713b7cf9bbe5085b83acf0d0b45fc5fd75fc1fefd28cca",
+    "ZhiHui/frontend/src/components/PermissionWarning.tsx": "125886f27b0fe01b28ec6897b0b62d13afffd861d88d33f9c0cef9f367edc862",
+    "ZhiHui/frontend/src/components/PreferenceSettings.tsx": "40071bc67a3b9e9674c816629411bdb264606433bc83df84203049770565690f",
+    "ZhiHui/frontend/src/components/PrivacyPolicyModal.tsx": "fa8560a8b6b317fa857da9f7e8379b26a57d71feefff76bd303151085b87df2f",
+    "ZhiHui/frontend/src/components/RecordingControls.tsx": "43fe0ea0f1c4228b72b4e9069d8d96e69a12dae48660ba3756b273062fde9455",
+    "ZhiHui/frontend/src/components/RecordingSettings.tsx": "b0410711b212b3592b1620ed3fa19336b0838808ecf3e21233626e5f22ec59c1",
+    "ZhiHui/frontend/src/components/RecordingStatusBar.tsx": "c81caf6f713865f06d2710c9c277623b5cfb84bd3acf24d791e87df28dbe21c5",
+    "ZhiHui/frontend/src/components/SenseVoiceModelManager.tsx": "34e949409603df8044b85d291d6464711edae61ab9de755354496b81879d423a",
+    "ZhiHui/frontend/src/components/SettingTabs.tsx": "cf26821528d3e16c1645f2278537b78dccb793ec64829e88227b6dff3d1b58c9",
+    "ZhiHui/frontend/src/components/Sidebar/SidebarProvider.tsx": "d35fe5e89f63a70db4b73a9a405a5a91470e4077e52973f5256465b8198a21fe",
+    "ZhiHui/frontend/src/components/Sidebar/SummaryQueuePanel.tsx": "30df2165b7f61ed7a1f0fdf63e67067ce166a08c87b2fad02046372029ee74fb",
+    "ZhiHui/frontend/src/components/Sidebar/index.tsx": "3c4ba3ab01903c0d9c3f7abd151e4080d7a3999ada278cd01fea2aae370dca47",
+    "ZhiHui/frontend/src/components/SpeakerSettings.tsx": "a3b43cca0c6ddd519f5d40dd515f0dbe4a9c769cd97e78d799edfd1c43256b29",
+    "ZhiHui/frontend/src/components/SummaryLanguageSettings.tsx": "846d2a88a01cfca0c8a5d133dcdf1466183b51063dae8cc655b815856fbab153",
+    "ZhiHui/frontend/src/components/SummaryModelSettings.tsx": "e557ee5c283f21dec901e685af804ea43326b2d61d5eb9fae37d4e7d25e3dc49",
+    "ZhiHui/frontend/src/components/TranscriptRecovery/TranscriptRecovery.tsx": "a0f41a98e384faf12abad6c0dd7dadb94c732a098d5c65614701c3f7767ab3c9",
+    "ZhiHui/frontend/src/components/TranscriptRecovery/index.ts": "2e69571e685041cb4d7c7f44440f91617db4ba3e5119609e67f0a76c10121fe1",
+    "ZhiHui/frontend/src/components/TranscriptSettings.tsx": "e60b64ff3260d5720e364c96b4616b0e8f9d1035e4c4c9635b7c88ed4498fdf1",
+    "ZhiHui/frontend/src/components/TranscriptView.tsx": "d595ada209e7499b02e698d8f7aee03d6da12e26e2e19ab935dc04f6c9cacc0d",
+    "ZhiHui/frontend/src/components/UpdateCheckProvider.tsx": "184b5710eead4053cd06225867e0721872cd254ab22b38b9fc8c3b043edccf1c",
+    "ZhiHui/frontend/src/components/UpdateDialog.tsx": "078575e457ce2434a8651700632a4fbaf8ca4cb8f9ad0834192476c27d7859fe",
+    "ZhiHui/frontend/src/components/UpdateNotification.tsx": "527c485dbccbdd7671790467c9f6e83e65c3cba3f4253323f02c3829fa8b38cb",
+    "ZhiHui/frontend/src/components/VirtualizedTranscriptView.tsx": "c5959368fe4b2360131f9d4b17c9a5ce31686be8ce9e44a6c16718abf91e621e",
+    "ZhiHui/frontend/src/components/WhisperModelManager.tsx": "beead504b1c24fe929f42a9c209ea03646adc2695393b2ac84bfe36fe8aec501",
+    "ZhiHui/frontend/src/components/molecules/form-components/form-input-item.tsx": "b5647fff1b78d5a61712ad5d966b72e08e91d6f9c986b51ef88662aa39c84781",
+    "ZhiHui/frontend/src/components/molecules/form-components/form-input-switch.tsx": "f7c82f4c9a30e2417cd7023b66a963d9a653345e0f5b42c52d11efade1d67322",
+    "ZhiHui/frontend/src/components/molecules/form-components/form-select-item.tsx": "cb4228ab73cee5df26fa984691ac645fcffa37e54c895fabc317d706ab25a0c6",
+    "ZhiHui/frontend/src/components/onboarding/OnboardingContainer.tsx": "b5ad5c74853e0a013bad64f0d3d49970382df6f5cae25b368ffd1b7fe97076c9",
+    "ZhiHui/frontend/src/components/onboarding/OnboardingFlow.tsx": "4e0f61dc732258607ff1bc50f73e74d71df1863c9972b370ca4ecde517f4f113",
+    "ZhiHui/frontend/src/components/onboarding/index.ts": "05fe4729f061645d21e012b1cef8bf61b0e8aa1368497211dcf99d19c31de618",
+    "ZhiHui/frontend/src/components/onboarding/shared/PermissionRow.tsx": "a8ab6735688c69f6bc3aec6140ba8fa475b26f08008c3f40217a5863b4b55998",
+    "ZhiHui/frontend/src/components/onboarding/shared/ProgressIndicator.tsx": "d89ea2176601968e52439c3372eca78c03e1e42afd5babe84c7ff75fe73af5a9",
+    "ZhiHui/frontend/src/components/onboarding/shared/StatusIndicator.tsx": "dbd4668be21783b123fcf63babf66022ff7ff204c176cb4809f285b15900e490",
+    "ZhiHui/frontend/src/components/onboarding/shared/index.ts": "3d9383f4ff230b064e0b3aead2b91a2fb9c67e933e72478d700f2f7d2223d205",
+    "ZhiHui/frontend/src/components/onboarding/steps/DownloadProgressStep.tsx": "047215fd03fa526505dbd7ed96b9522150a2eb06fb443e0c0f2d9ec9273290dd",
+    "ZhiHui/frontend/src/components/onboarding/steps/OfflineImportStep.tsx": "41ce1bf1f8a4c8273946c87278cfb8ee31b5258aeb613335eb8d19cb5b1b1807",
+    "ZhiHui/frontend/src/components/onboarding/steps/PermissionsStep.tsx": "79c44304853f98e43337747f91ed138bbbc32aa94239a02bed92b6cd2c9900f9",
+    "ZhiHui/frontend/src/components/onboarding/steps/SetupOverviewStep.tsx": "1ba24043b8cc98e4b81b85b9e67fdf990abe1f34ca5354291166bc1effd2399b",
+    "ZhiHui/frontend/src/components/onboarding/steps/WelcomeStep.tsx": "21341bd41413e5844160dcbf8b2a05def8c42765a70d647728e5090e1622ae5d",
+    "ZhiHui/frontend/src/components/onboarding/steps/index.ts": "b267445144d05b7bb779f47a3b2b70b426bac4a4eebc8ad1e2afbe1607201a75",
+    "ZhiHui/frontend/src/components/shared/DownloadProgressToast.tsx": "74cfbb95f3e1296811e0cf7e4245e3b087beb47b735dec78213e9be3bc655a04",
+    "ZhiHui/frontend/src/components/ui/accordion.tsx": "b009fb29fd8ac179d7bc3fe13f73c2436419c05e0a9db5db4d15cce139eb9347",
+    "ZhiHui/frontend/src/components/ui/alert.tsx": "5950ac01377e7eedc94b00eb3fee678745e4cc1a72b5343867f0733d07db6660",
+    "ZhiHui/frontend/src/components/ui/button-group.tsx": "e3716d270e9ef6457b5cd29464ae00194abc8093c08ebf726c9204d7a69231d9",
+    "ZhiHui/frontend/src/components/ui/button.tsx": "bff289bcbb26b69908979bb84864e507aa570dba8430a6c4e47f3d273d4b0186",
+    "ZhiHui/frontend/src/components/ui/command.tsx": "5a57ebc119f2357b097098d22865d45de8fda623ee88fe98b99999838c13633b",
+    "ZhiHui/frontend/src/components/ui/dialog.tsx": "fe70a91bb924ef3a40b7504e6847ef9a57aed3b503d2a7dbb7610e821ea40b6f",
+    "ZhiHui/frontend/src/components/ui/dropdown-menu.tsx": "dc109123ecd59af01d07aa9f3a8e8a7085bd3f337388c5369799ab1ce6c2d45f",
+    "ZhiHui/frontend/src/components/ui/form.tsx": "9027dc0d91f785b6fc0ef579d4d6c9423f8634be9fd05f83fc4d8dfdc006488b",
+    "ZhiHui/frontend/src/components/ui/input-group.tsx": "dcb76b7c1f6c3ed36437c1bed6c46dd735b1091ba162bcb5fca0a7d2167f3307",
+    "ZhiHui/frontend/src/components/ui/input.tsx": "6299a6a387dc55e528aec4342deaea0b83f1ea3a365c135a31a18ee55334f441",
+    "ZhiHui/frontend/src/components/ui/label.tsx": "2eac8fbb04002c42b0fbc4062d20d131e421796eaf65c37d2049e29e42ecbc5a",
+    "ZhiHui/frontend/src/components/ui/popover.tsx": "69f74cdd76588a1249522ff8009e044eee6080ad8cf26cb08d7a5fc3281f0255",
+    "ZhiHui/frontend/src/components/ui/progress.tsx": "6b3b4b69a1cb361076174892e9a96e1a09020307616965ef89f2f7e2495b57a9",
+    "ZhiHui/frontend/src/components/ui/scroll-area.tsx": "edbaecbc4f5cb6e16ecb39d3678d81b26e1a968dfc273dbb77821de3c8626377",
+    "ZhiHui/frontend/src/components/ui/select.tsx": "3d93ae07a8f3fe121ba60f4439e26bd7859f247eb8bfcafcf4b4a8a069888eec",
+    "ZhiHui/frontend/src/components/ui/separator.tsx": "995c54f1c5c688f712a675fe35d55bcada2b31dba561dcc71553a1ad601e59ec",
+    "ZhiHui/frontend/src/components/ui/sheet.tsx": "363f8e06aa5b53c6475f445117f60fa9294be79e9e4f1f5bf70886800188124e",
+    "ZhiHui/frontend/src/components/ui/switch.tsx": "ab2d009e0fa7366f47ae1a6e0ca35d0aac55c6264c5f61718e12366c196163b4",
+    "ZhiHui/frontend/src/components/ui/tabs.tsx": "d41aded0394298102614635e15d709369c6bdae8fe79b918b8341ef39407ee03",
+    "ZhiHui/frontend/src/components/ui/textarea.tsx": "ec7c92aaed80f6923a7caa4bfe4eead395b50a7001504fd7fbb0b9381804dae9",
+    "ZhiHui/frontend/src/components/ui/tooltip.tsx": "ce6afa34fb9dae51053a863b4c3f7c6e55f3da23b00149f31a8e4402bc963be0",
+    "ZhiHui/frontend/src/components/ui/visually-hidden.tsx": "d365d4005dae9aa53581a4c7ec42fd9c5f4b96e0ce0608ba2d9f3f6c8ed11eba",
+    "ZhiHui/frontend/src/config/api.ts": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ZhiHui/frontend/src/constants/audioFormats.ts": "5afe8cfb236fa650cb148072f41f5cce5f84fb7957bca920d949bec17bca5b2d",
+    "ZhiHui/frontend/src/constants/languages.ts": "68b81a2d70344e99100418c2a51903ac32d526dc37535a5ec69da67ff7de2af4",
+    "ZhiHui/frontend/src/constants/modelDefaults.ts": "ad108ec67630fa1babb3a9f5f4c1b99143a67dd6f36dccb38289bb555176f0ef",
+    "ZhiHui/frontend/src/contexts/ConfigContext.tsx": "462788c3b53243e121766402953a0f100841f98312fa23dc29050a18583bf5ad",
+    "ZhiHui/frontend/src/contexts/ImportDialogContext.tsx": "d04540ec4433235a9b31f727d3c81d8c464694057e967f60286d37cff4653c41",
+    "ZhiHui/frontend/src/contexts/LicenseContext.tsx": "96198a09e8a96b0d46c9c3fcd150aee6f903243f9b0ba40b0124cbbf9da8f9e8",
+    "ZhiHui/frontend/src/contexts/OllamaDownloadContext.tsx": "0dcf54a30ad69c607af7f3f35ae1bd2aff385977b65784ea2393e1942c69deaf",
+    "ZhiHui/frontend/src/contexts/OnboardingContext.tsx": "1896ec334abed6d0b8f32cbb434e4277b7296c51cf1d2c39a22289de3399f494",
+    "ZhiHui/frontend/src/contexts/RecordingPostProcessingProvider.tsx": "dd57aa8f4307ca45fd67eb00aef26f5fc7aef54c8cc153ccca09e789b87d4c13",
+    "ZhiHui/frontend/src/contexts/RecordingStateContext.tsx": "e5a7bdcd18bca8de01919847bd3ec613f940e79e476d1255beeab0095cd28a95",
+    "ZhiHui/frontend/src/contexts/TranscriptContext.tsx": "db3df44f58cd1c8869fda7bb997979fcd4128111688fb275c52b691e9b434486",
+    "ZhiHui/frontend/src/hooks/meeting-details/useCopyOperations.ts": "17ada539719713754d9321895eb89fcbf31481c14c2b61e8ce012c29e242cf96",
+    "ZhiHui/frontend/src/hooks/meeting-details/useMeetingData.ts": "a94081947e8c51ed9bef8c60c6d16d6ce556636ab0fe25b52bed9e668efc1394",
+    "ZhiHui/frontend/src/hooks/meeting-details/useMeetingOperations.ts": "98dc0ab1b9802b57c207df6d93a7201662f864d454fe0b715ddd82f300a23e29",
+    "ZhiHui/frontend/src/hooks/meeting-details/useModelConfiguration.ts": "e2613a3e67aade6d11481ecebd5966a99711f5ae62480d37d53e15f48ffcbf78",
+    "ZhiHui/frontend/src/hooks/meeting-details/useSummaryGeneration.ts": "13bbe86dd2f7c3378ac3d23bcce011903387d9d53ddb51260723a14c405c1705",
+    "ZhiHui/frontend/src/hooks/meeting-details/useTemplates.ts": "67ada5a81abfeefee1735e7f4eae8bed75620251a9788762c2066f4b4af8e256",
+    "ZhiHui/frontend/src/hooks/useAudioPlayer.ts": "153d848d6b847c8f7e4c4e46b39fb9ba79e2a66de90037fb461bdc0197ead744",
+    "ZhiHui/frontend/src/hooks/useAutoScroll.ts": "0b5bba6f861ab5347ab768d64ca5e3309bb16b17e899497f65196a0bbb849c54",
+    "ZhiHui/frontend/src/hooks/useImportAudio.ts": "a5a959341c673494c47e150e21a18a4d00ccd49570e7a2b7eb477e13d06f4961",
+    "ZhiHui/frontend/src/hooks/useModalState.ts": "b55f613454dbca90cceeaeaffe9ac0fcc04de84b25cc7c77a93cea40b29b2c1a",
+    "ZhiHui/frontend/src/hooks/useNavigation.ts": "6eea3dc34b1af7d26a171ca17b4375f1b928c5d1df099f3c76cd316603d9a94f",
+    "ZhiHui/frontend/src/hooks/usePaginatedTranscripts.ts": "1ddb1b770687d1a35491ddbbb9936811792e45a78270a314668d331a3c1578da",
+    "ZhiHui/frontend/src/hooks/usePermissionCheck.ts": "523b199eec928f05453c94c107158e6d23f8ad92a264045139dd96ef93bcf34e",
+    "ZhiHui/frontend/src/hooks/usePlatform.ts": "c345c478af09d30243868846d53f5dbfcfbff37baa1f7bba0b47aa2f15b1bf41",
+    "ZhiHui/frontend/src/hooks/useProcessingProgress.ts": "5fa8f9be32cd08307b91a75bab94d670ff5d19558a9c010d5799dfd97b36ee90",
+    "ZhiHui/frontend/src/hooks/useRecentLanguages.ts": "f8e99f1f0e7575ccac7929d741468ae6db5e68afae6b49c2c469f8b31974cfb2",
+    "ZhiHui/frontend/src/hooks/useRecordingStart.ts": "e14f294375336f1e3bc73bac2c9cc5c45a57f3c8e745a8ede69396e578efa2b6",
+    "ZhiHui/frontend/src/hooks/useRecordingStateSync.ts": "891ab85e9f2998362e3036ae54b46156a778f09e0948de3aa4f6f8071cc6f1ac",
+    "ZhiHui/frontend/src/hooks/useRecordingStop.ts": "5b1f7730a34f74ee0f5c08f3952ccd1eb2e3137229da387c021a8b7e01260093",
+    "ZhiHui/frontend/src/hooks/useTranscriptRecovery.ts": "42941b3ce8d76e6e47bb397d86e9d759bf12f53ca164f4233814b984f441ea2f",
+    "ZhiHui/frontend/src/hooks/useTranscriptStreaming.ts": "6d705a1df4535b81c183dde66a552b9bd2adca0c19c12e8a38a81b04aee4720c",
+    "ZhiHui/frontend/src/hooks/useTranscriptionModels.ts": "4c7bc3fe0c2668c5e42e6a63ac6c211db70e0488c3ea4da06740ac52bc1593b3",
+    "ZhiHui/frontend/src/hooks/useUpdateCheck.ts": "4df0978b8093307f92dc0e83e774614a1fbdd5db9c026ad6dbf63043acc72127",
+    "ZhiHui/frontend/src/lib/analytics.ts": "de7183ac6d8a4881a3368fba2035dd46e609d3e03a57910a7b000a2eb1b17b42",
+    "ZhiHui/frontend/src/lib/blocknote-markdown.ts": "c78f624bc46de23fdf6997dad36b026d2c0c9fa5d20f3d9027bd2ba05abde0e3",
+    "ZhiHui/frontend/src/lib/builtin-ai.ts": "ff855d7dae8d002ce384fc780ec1aaee121d351e9bdbf35671b4702027e4a97b",
+    "ZhiHui/frontend/src/lib/errorMessages.ts": "941bf4529b3355631c3a320534832df5b9ad00c2989a61337d8ef8397f4077a2",
+    "ZhiHui/frontend/src/lib/export/blockUtils.ts": "8d13843c715076abd5b2ecd4f91411fbac153c043ea66d15c12bf6482b687580",
+    "ZhiHui/frontend/src/lib/export/exportDocx.ts": "3022cb10adb5bb3a0f1a9f2fa230be9618c0f97db31ffad97152ce2d454042a4",
+    "ZhiHui/frontend/src/lib/export/exportPdf.ts": "db235a649635c0d6f2040395a164bcbdc256404511bb133e3fdbc7803749e209",
+    "ZhiHui/frontend/src/lib/i18n/config.ts": "2538f7df7df3f522b3c23945a6e877b2c8bed26029a3d888ca2413453fe03998",
+    "ZhiHui/frontend/src/lib/i18n/locales/en.json": "e235eeda7bbca257d674ae5d02143be84a7b7e0ce9381a12f0679fef7da3c80c",
+    "ZhiHui/frontend/src/lib/i18n/locales/zh-CN.json": "7bc82f71e61ae63363e0a28645b41b14c9e7ebe0b87d36ab0fd215849f230cb4",
+    "ZhiHui/frontend/src/lib/onboarding-summary-model.ts": "f2a9e5a3affbbbc98df00b9d3541cf230b809ac2a9ea1c246b9cff4a35e40d04",
+    "ZhiHui/frontend/src/lib/parakeet.ts": "d3159560afefb8c506d8e9da38f0417a003b11bcef9dfeb27bed7cbab0836152",
+    "ZhiHui/frontend/src/lib/recordingNotification.tsx": "a5a9885b5cab42cb1f863d3e68083e992ff2e51c6156848d8f64e96757538c3b",
+    "ZhiHui/frontend/src/lib/sensevoice.ts": "58ed8fd8d8d59c8e85ed538d2cade1dc0744460a45452e4a3c24b5f8964ae7f5",
+    "ZhiHui/frontend/src/lib/speaker.ts": "bb54df99e8c7db6b3c722e2b9ab7f169a8d0a79e7004840648a60b86c0c06445",
+    "ZhiHui/frontend/src/lib/summary-language-preferences.ts": "29ad2c4dd0cdd718d6f6e0bc1566a4ea89f17df49c6e4921d245824f68913100",
+    "ZhiHui/frontend/src/lib/summary-languages.ts": "1bba5290ade551f083261318b3bf47c9e3041334afd7a22cfd582c5b2da89705",
+    "ZhiHui/frontend/src/lib/utils.ts": "46d283659a9c2b5ad952de9f1d26c20ab7e1beef157f04aa1d24cab6b13b7ac8",
+    "ZhiHui/frontend/src/lib/whisper.ts": "1db4f5454464e120a7f433ee93690a0f456f3df5bec6c94d94484f841a7b73fb",
+    "ZhiHui/frontend/src/services/configService.ts": "b1edf7604fbd217854ac4b80987a8fad23b15b1c574d5d308e397266bae958e6",
+    "ZhiHui/frontend/src/services/indexedDBService.ts": "341799fa6747888024e852062f6dc3a9b007c38ff17017405e839d789baeb6ae",
+    "ZhiHui/frontend/src/services/recordingService.ts": "0d0c97f7ddbdfbde1969d92bcf74fe342b4094a2c4858ca1be251d75cc575c9d",
+    "ZhiHui/frontend/src/services/storageService.ts": "624b1058f43cf5d2b85f431e514d4c599aba981012313b8405a3e3af5849cbfa",
+    "ZhiHui/frontend/src/services/transcriptService.ts": "86093096c9acd9b28e31c7cda46ff74d32e646f4eb596bf63d824f1e8f39bb05",
+    "ZhiHui/frontend/src/services/updateService.ts": "3957fdbd1d10e9db82dbe13e47c0d61e0bf5578874d5bef06682d77655f4dede",
+    "ZhiHui/frontend/src/types/betaFeatures.ts": "a84d83d818869aed0aaf818e06d0eb83ec4bc977e3fe2b2262d3433f16b0895a",
+    "ZhiHui/frontend/src/types/index.ts": "c6c5c7d4e4db10694c517c37d233120ac8a9b62679e178be2151af1055525e24",
+    "ZhiHui/frontend/src/types/onboarding.ts": "75ee2579bd140c91843a8cb38e66f98f4ad10782673f3c667a3fc7e89095d7a5",
+    "ZhiHui/frontend/src/types/summary.ts": "8b688cd376258b3440e75726069c1b87e49698c2549f9621fba1a47c1c86a7fa",
+    "ZhiHui/frontend/tailwind.config.js": "7ebcaf24f912e27e48fccbee26ca10869c2e674757d04b2fc70621041a203dad",
+    "ZhiHui/frontend/tailwind.config.ts": "8ff50eafc7cef0ffa0b8bb48f06e26663e9579f70d4a8a133d22892ac5b9ad0b",
+    "ZhiHui/frontend/tests/lib/blocknote-markdown.test.ts": "e17d772bd76cf0c4d2f98116e194987d4dfe450c26da0573a3ba4259040b104b",
+    "ZhiHui/frontend/tests/lib/onboarding-summary-model.test.mjs": "8d07a888f3851a99201449852e15865051f152cf386d7e7b38b31135db5610e4",
+    "ZhiHui/frontend/tests/lib/summary-language-preferences.test.js": "58d2ae5310ef323fc36ffa2a547e18ef3d1f366158924f2e105e8c56878fe044",
+    "ZhiHui/frontend/tsconfig.json": "4502ffbce87a29c95caebb663c4df9afe49952ff56ed3264d6fe5c3f13220076",
+    "ZhiHui/frontend/public/fonts/NotoSansSC-Bold.ttf": "9a38ae0ab28cd5a256f9ea8e00dedc688aac17f7915fcb000572990afa956b96",
+    "ZhiHui/frontend/public/fonts/NotoSansSC-Regular.ttf": "d45f67f0a7c0ca3f256950777ce6a61cc7ce5f9696d02900cbbaac25f8aa7d16"
+  },
+  "sources": {
+    "frontend/src/app/favicon.ico": {
+      "source": "ZhiHui/frontend/src/app/favicon.ico",
+      "sha256": "9a445df1d02ba4f2f5aedcfe246c5960203dc1c22fbd16d3f62eee5585c9cdea"
+    },
+    "frontend/src/app/globals.css": {
+      "source": "ZhiHui/frontend/src/app/globals.css",
+      "sha256": "699db5b6f64a1191aa878d092decd3bffe09c81e246f96e726a93c1e44cae6a4"
+    },
+    "frontend/src/app/layout.tsx": {
+      "source": "ZhiHui/frontend/src/app/layout.tsx",
+      "sha256": "84909b6c0b7fd211d59991c54d189c0b430825ef31a0e402c574d1bee4731172"
+    },
+    "frontend/src/app/metadata.ts": {
+      "source": "ZhiHui/frontend/src/app/metadata.ts",
+      "sha256": "25d3e76c123da19ba1e6a15cb5da23179221d90a71f9f73407e210d559e6a203"
+    },
+    "frontend/src/app/metadata.tsx": {
+      "source": "ZhiHui/frontend/src/app/metadata.tsx",
+      "sha256": "350083382a3545449869c29831a51d9ea7eb3cea69d97f8b3e7e20d4c41bbea2"
+    },
+    "frontend/src/app/page.tsx": {
+      "source": "ZhiHui/frontend/src/app/page.tsx",
+      "sha256": "5698fb4a4067c38cb75a942ea651d5d349aa096309555d4d9aa497e041c80af2"
+    },
+    "frontend/src/app/meeting-details/page-content.tsx": {
+      "source": "ZhiHui/frontend/src/app/meeting-details/page-content.tsx",
+      "sha256": "91b3bc59e1103e32d965dbfe38183ab3e6cf70ad5850d3edb728870c0a533369"
+    },
+    "frontend/src/app/meeting-details/page.tsx": {
+      "source": "ZhiHui/frontend/src/app/meeting-details/page.tsx",
+      "sha256": "6f66a803255bac0388612e63aee4831e6f1ece31feb6863973223a1d686ed249"
+    },
+    "frontend/src/app/notes/[id]/page.tsx": {
+      "source": "ZhiHui/frontend/src/app/notes/[id]/page.tsx",
+      "sha256": "6cc1813b9b26ef55afa632deb146528c43710449a46435fe7f2aebdf1c213754"
+    },
+    "frontend/src/app/settings/page.tsx": {
+      "source": "ZhiHui/frontend/src/app/settings/page.tsx",
+      "sha256": "1c4f0a51a673ee1a3c0780d15bd00b17369d1b373fde0067f6d0a710a2f5f2ed"
+    },
+    "frontend/src/app/_components/QuickSettingsBar.tsx": {
+      "source": "ZhiHui/frontend/src/app/_components/QuickSettingsBar.tsx",
+      "sha256": "470b03f2b073d2b9ecef638c0b95a23ddecc92951e86fc348ad6b2e971d3bec4"
+    },
+    "frontend/src/app/_components/SettingsModal.tsx": {
+      "source": "ZhiHui/frontend/src/app/_components/SettingsModal.tsx",
+      "sha256": "7bd018ec7bf7f88fad00087cf82e4fb38c4d2ba812419a0dd64a08a2dd637b2e"
+    },
+    "frontend/src/app/_components/StatusOverlays.tsx": {
+      "source": "ZhiHui/frontend/src/app/_components/StatusOverlays.tsx",
+      "sha256": "900e2062c3554b0a1a8be26a8ad5b319631a338d25a9609d71e00bf8955fc6e1"
+    },
+    "frontend/src/app/_components/TranscriptPanel.tsx": {
+      "source": "ZhiHui/frontend/src/app/_components/TranscriptPanel.tsx",
+      "sha256": "77be3565629f9049455f51f87f9701f1de593f813b73d812c4100be9043a4fef"
+    },
+    "frontend/src/components/About.tsx": {
+      "source": "ZhiHui/frontend/src/components/About.tsx",
+      "sha256": "9d58b269507b00b556f991951a6c7cfa4153e77691ea108bc319474c8ff8c09a"
+    },
+    "frontend/src/components/AddCustomAsrModelDialog.tsx": {
+      "source": "ZhiHui/frontend/src/components/AddCustomAsrModelDialog.tsx",
+      "sha256": "a467b2238e8dfe2e00859825d7ba90495560ff79bedff8752d16968d0a2f5362"
+    },
+    "frontend/src/components/AddCustomModelDialog.tsx": {
+      "source": "ZhiHui/frontend/src/components/AddCustomModelDialog.tsx",
+      "sha256": "5fa4b4b9aea352c9b6caaab7e2955c06d40100b4be543a55eb061739bfad2de3"
+    },
+    "frontend/src/components/AnalyticsConsentSwitch.tsx": {
+      "source": "ZhiHui/frontend/src/components/AnalyticsConsentSwitch.tsx",
+      "sha256": "3baef8011aedd3b44c769b3c8fab91a0905523fc2537e80a2dd3fe72f08d65c4"
+    },
+    "frontend/src/components/AnalyticsDataModal.tsx": {
+      "source": "ZhiHui/frontend/src/components/AnalyticsDataModal.tsx",
+      "sha256": "4768dc43febb8d70a96d1777c71de0067b83abe559cd2f91825f32f22559dbe1"
+    },
+    "frontend/src/components/AnalyticsProvider.tsx": {
+      "source": "ZhiHui/frontend/src/components/AnalyticsProvider.tsx",
+      "sha256": "0137756ad2be7b6959abcc1897141956056625be8e43466134bc2699197a1ce5"
+    },
+    "frontend/src/components/AsrLanguageSelector.tsx": {
+      "source": "ZhiHui/frontend/src/components/AsrLanguageSelector.tsx",
+      "sha256": "f29d5d5e6b2a4153eb0907ca0e900ed4708df42ee22cd6f4a04be0781d1c9412"
+    },
+    "frontend/src/components/AudioBackendSelector.tsx": {
+      "source": "ZhiHui/frontend/src/components/AudioBackendSelector.tsx",
+      "sha256": "dfa36c37fe5d282d6eda6a1b29fc3c892b18e87eb3897096190a7b62b23a4719"
+    },
+    "frontend/src/components/AudioLevelMeter.tsx": {
+      "source": "ZhiHui/frontend/src/components/AudioLevelMeter.tsx",
+      "sha256": "6aa113d226349a5094b3950ab8c7814d00da63743f24f3a71b6c2898d3b5700b"
+    },
+    "frontend/src/components/AudioPlayer.tsx": {
+      "source": "ZhiHui/frontend/src/components/AudioPlayer.tsx",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "frontend/src/components/BetaSettings.tsx": {
+      "source": "ZhiHui/frontend/src/components/BetaSettings.tsx",
+      "sha256": "37c933b670ce21915407d0d5b794f67fc907a9892ba9b62c0f634383a33de0e7"
+    },
+    "frontend/src/components/BluetoothPlaybackWarning.tsx": {
+      "source": "ZhiHui/frontend/src/components/BluetoothPlaybackWarning.tsx",
+      "sha256": "6cae9e355b999f4cb042df23bf0748f4dc3382b6f03ee46a8f98dec6b1e1094e"
+    },
+    "frontend/src/components/BuiltInModelManager.tsx": {
+      "source": "ZhiHui/frontend/src/components/BuiltInModelManager.tsx",
+      "sha256": "4ab63d0d0e37e50607dd2c2c519b29bc255fe2bf4d52165b4cac00400c0de017"
+    },
+    "frontend/src/components/ChunkProgressDisplay.tsx": {
+      "source": "ZhiHui/frontend/src/components/ChunkProgressDisplay.tsx",
+      "sha256": "6528c5c535339387c778164baf461cd6295238233259cbdd703cbc6a307caca5"
+    },
+    "frontend/src/components/ComplianceNotification.tsx": {
+      "source": "ZhiHui/frontend/src/components/ComplianceNotification.tsx",
+      "sha256": "cff87268aa040012b011f17ef5c80806294ba906553dceff396075fb4f2e0807"
+    },
+    "frontend/src/components/ConfidenceIndicator.tsx": {
+      "source": "ZhiHui/frontend/src/components/ConfidenceIndicator.tsx",
+      "sha256": "d51cf0a0833ea45f8f0fa0d50f09f500f3b4e002a4b2e5df8e0b5bb43638c160"
+    },
+    "frontend/src/components/ConsoleToggle.tsx": {
+      "source": "ZhiHui/frontend/src/components/ConsoleToggle.tsx",
+      "sha256": "0ea39b63b8f599647672afdae72d2ecbaacda21bc65f75575072f7646297848d"
+    },
+    "frontend/src/components/CustomDialog.tsx": {
+      "source": "ZhiHui/frontend/src/components/CustomDialog.tsx",
+      "sha256": "5f8940674c7f4ba4ee9fec8a83ee2a27700fb4d4dc5c262a547e781bd8beb740"
+    },
+    "frontend/src/components/DeviceSelection.tsx": {
+      "source": "ZhiHui/frontend/src/components/DeviceSelection.tsx",
+      "sha256": "45f92a69a05a6d14a49c17bc56f1332247de157af7eb1b50cb51499404dad62c"
+    },
+    "frontend/src/components/EditableTitle.tsx": {
+      "source": "ZhiHui/frontend/src/components/EditableTitle.tsx",
+      "sha256": "d62b8b256cb2943081beb8c051910ba78979c27afd5236c183d83231a19792cd"
+    },
+    "frontend/src/components/EmptyStateSummary.tsx": {
+      "source": "ZhiHui/frontend/src/components/EmptyStateSummary.tsx",
+      "sha256": "65c369cde39541c45be6dea3595dbf4f4ef27d944df12464f93aa1529963a905"
+    },
+    "frontend/src/components/I18nProvider.tsx": {
+      "source": "ZhiHui/frontend/src/components/I18nProvider.tsx",
+      "sha256": "3ad297950283fe8655472b288f15f598fab86bdaa4c8346aac3092ce0236a6f2"
+    },
+    "frontend/src/components/Info.tsx": {
+      "source": "ZhiHui/frontend/src/components/Info.tsx",
+      "sha256": "3cf2e3ae7f9ebd31313f0d97519dc85e28a26fa8074f7cd9db7166da4fc45ce7"
+    },
+    "frontend/src/components/LanguagePickerPopover.tsx": {
+      "source": "ZhiHui/frontend/src/components/LanguagePickerPopover.tsx",
+      "sha256": "ae09d0fae8504bf5b8197bbfaa72cac0534cd020e630d1ce43cbfae53ec02d04"
+    },
+    "frontend/src/components/LanguageSelection.tsx": {
+      "source": "ZhiHui/frontend/src/components/LanguageSelection.tsx",
+      "sha256": "fc7a7a4e7f17e97eee33ea7828ff1a93336304be0eeb251984145e424cf498f1"
+    },
+    "frontend/src/components/LanguageSwitcher.tsx": {
+      "source": "ZhiHui/frontend/src/components/LanguageSwitcher.tsx",
+      "sha256": "c538e33c833585cc0e425da59d2d599e36be0790e198e99bc65ea046227ace06"
+    },
+    "frontend/src/components/Logo.tsx": {
+      "source": "ZhiHui/frontend/src/components/Logo.tsx",
+      "sha256": "9bc01afa99557265cf0ca77d7fad4558d3bd17c452a62f851c8b3ef79cf1c8e9"
+    },
+    "frontend/src/components/MessageToast.tsx": {
+      "source": "ZhiHui/frontend/src/components/MessageToast.tsx",
+      "sha256": "29037ede3d3c21a689c84c147ca3250f0a03ad25189c48601f151c74c7e9115b"
+    },
+    "frontend/src/components/ModelDownloadProgress.tsx": {
+      "source": "ZhiHui/frontend/src/components/ModelDownloadProgress.tsx",
+      "sha256": "bdcdbd4763d835e0806e151c51d95a7357645bc2b4c0101b4dc80c16efbf3f53"
+    },
+    "frontend/src/components/ModelSettingsModal.tsx": {
+      "source": "ZhiHui/frontend/src/components/ModelSettingsModal.tsx",
+      "sha256": "2de06d1bc1d6db9117f0d50f763c21cd5ec3e543676131adbf148abd2682454f"
+    },
+    "frontend/src/components/ParakeetModelManager.tsx": {
+      "source": "ZhiHui/frontend/src/components/ParakeetModelManager.tsx",
+      "sha256": "0f96e6723b6598cf21713b7cf9bbe5085b83acf0d0b45fc5fd75fc1fefd28cca"
+    },
+    "frontend/src/components/PermissionWarning.tsx": {
+      "source": "ZhiHui/frontend/src/components/PermissionWarning.tsx",
+      "sha256": "125886f27b0fe01b28ec6897b0b62d13afffd861d88d33f9c0cef9f367edc862"
+    },
+    "frontend/src/components/PreferenceSettings.tsx": {
+      "source": "ZhiHui/frontend/src/components/PreferenceSettings.tsx",
+      "sha256": "40071bc67a3b9e9674c816629411bdb264606433bc83df84203049770565690f"
+    },
+    "frontend/src/components/PrivacyPolicyModal.tsx": {
+      "source": "ZhiHui/frontend/src/components/PrivacyPolicyModal.tsx",
+      "sha256": "fa8560a8b6b317fa857da9f7e8379b26a57d71feefff76bd303151085b87df2f"
+    },
+    "frontend/src/components/RecordingControls.tsx": {
+      "source": "ZhiHui/frontend/src/components/RecordingControls.tsx",
+      "sha256": "43fe0ea0f1c4228b72b4e9069d8d96e69a12dae48660ba3756b273062fde9455"
+    },
+    "frontend/src/components/RecordingSettings.tsx": {
+      "source": "ZhiHui/frontend/src/components/RecordingSettings.tsx",
+      "sha256": "b0410711b212b3592b1620ed3fa19336b0838808ecf3e21233626e5f22ec59c1"
+    },
+    "frontend/src/components/RecordingStatusBar.tsx": {
+      "source": "ZhiHui/frontend/src/components/RecordingStatusBar.tsx",
+      "sha256": "c81caf6f713865f06d2710c9c277623b5cfb84bd3acf24d791e87df28dbe21c5"
+    },
+    "frontend/src/components/SenseVoiceModelManager.tsx": {
+      "source": "ZhiHui/frontend/src/components/SenseVoiceModelManager.tsx",
+      "sha256": "34e949409603df8044b85d291d6464711edae61ab9de755354496b81879d423a"
+    },
+    "frontend/src/components/SettingTabs.tsx": {
+      "source": "ZhiHui/frontend/src/components/SettingTabs.tsx",
+      "sha256": "cf26821528d3e16c1645f2278537b78dccb793ec64829e88227b6dff3d1b58c9"
+    },
+    "frontend/src/components/SpeakerSettings.tsx": {
+      "source": "ZhiHui/frontend/src/components/SpeakerSettings.tsx",
+      "sha256": "a3b43cca0c6ddd519f5d40dd515f0dbe4a9c769cd97e78d799edfd1c43256b29"
+    },
+    "frontend/src/components/SummaryLanguageSettings.tsx": {
+      "source": "ZhiHui/frontend/src/components/SummaryLanguageSettings.tsx",
+      "sha256": "846d2a88a01cfca0c8a5d133dcdf1466183b51063dae8cc655b815856fbab153"
+    },
+    "frontend/src/components/SummaryModelSettings.tsx": {
+      "source": "ZhiHui/frontend/src/components/SummaryModelSettings.tsx",
+      "sha256": "e557ee5c283f21dec901e685af804ea43326b2d61d5eb9fae37d4e7d25e3dc49"
+    },
+    "frontend/src/components/TranscriptSettings.tsx": {
+      "source": "ZhiHui/frontend/src/components/TranscriptSettings.tsx",
+      "sha256": "e60b64ff3260d5720e364c96b4616b0e8f9d1035e4c4c9635b7c88ed4498fdf1"
+    },
+    "frontend/src/components/TranscriptView.tsx": {
+      "source": "ZhiHui/frontend/src/components/TranscriptView.tsx",
+      "sha256": "d595ada209e7499b02e698d8f7aee03d6da12e26e2e19ab935dc04f6c9cacc0d"
+    },
+    "frontend/src/components/UpdateCheckProvider.tsx": {
+      "source": "ZhiHui/frontend/src/components/UpdateCheckProvider.tsx",
+      "sha256": "184b5710eead4053cd06225867e0721872cd254ab22b38b9fc8c3b043edccf1c"
+    },
+    "frontend/src/components/UpdateDialog.tsx": {
+      "source": "ZhiHui/frontend/src/components/UpdateDialog.tsx",
+      "sha256": "078575e457ce2434a8651700632a4fbaf8ca4cb8f9ad0834192476c27d7859fe"
+    },
+    "frontend/src/components/UpdateNotification.tsx": {
+      "source": "ZhiHui/frontend/src/components/UpdateNotification.tsx",
+      "sha256": "527c485dbccbdd7671790467c9f6e83e65c3cba3f4253323f02c3829fa8b38cb"
+    },
+    "frontend/src/components/VirtualizedTranscriptView.tsx": {
+      "source": "ZhiHui/frontend/src/components/VirtualizedTranscriptView.tsx",
+      "sha256": "c5959368fe4b2360131f9d4b17c9a5ce31686be8ce9e44a6c16718abf91e621e"
+    },
+    "frontend/src/components/WhisperModelManager.tsx": {
+      "source": "ZhiHui/frontend/src/components/WhisperModelManager.tsx",
+      "sha256": "beead504b1c24fe929f42a9c209ea03646adc2695393b2ac84bfe36fe8aec501"
+    },
+    "frontend/src/components/AISummary/Block.tsx": {
+      "source": "ZhiHui/frontend/src/components/AISummary/Block.tsx",
+      "sha256": "7f8858f7411e885df27816e368dbfbd367dc41ac444132f7261acdbcaab47b62"
+    },
+    "frontend/src/components/AISummary/BlockNoteSummaryView.tsx": {
+      "source": "ZhiHui/frontend/src/components/AISummary/BlockNoteSummaryView.tsx",
+      "sha256": "1c955a155a64eddb96547aa9cced23c1ef23f68074dbd25452807eb1d2ef9643"
+    },
+    "frontend/src/components/AISummary/index.tsx": {
+      "source": "ZhiHui/frontend/src/components/AISummary/index.tsx",
+      "sha256": "5e019cde085fa8b516857c7afc1dec5a49428dd8f1b42276e29ab139ccf85a92"
+    },
+    "frontend/src/components/AISummary/Section.tsx": {
+      "source": "ZhiHui/frontend/src/components/AISummary/Section.tsx",
+      "sha256": "fd37b44d80221d4d4317592071b8518ae3dc9375543a0126b2220c508daf4aa1"
+    },
+    "frontend/src/components/BlockNoteEditor/BasicBlockNoteTest.tsx": {
+      "source": "ZhiHui/frontend/src/components/BlockNoteEditor/BasicBlockNoteTest.tsx",
+      "sha256": "3f5e65c76fba51a3c8c0469de3e523ae521a0af91ea8cc50009c359484950a1e"
+    },
+    "frontend/src/components/BlockNoteEditor/Editor.tsx": {
+      "source": "ZhiHui/frontend/src/components/BlockNoteEditor/Editor.tsx",
+      "sha256": "758aaa1e8d41ac6ef1bd96ee36475a3fdd7eb9274e8a959a50dd6eceeb52c192"
+    },
+    "frontend/src/components/ConfirmationModel/confirmation-modal.tsx": {
+      "source": "ZhiHui/frontend/src/components/ConfirmationModel/confirmation-modal.tsx",
+      "sha256": "bad6816b9092d55a6426387af95c35ef0d04589bc620a0a7f5312150ae12e5a5"
+    },
+    "frontend/src/components/DatabaseImport/HomebrewDatabaseDetector.tsx": {
+      "source": "ZhiHui/frontend/src/components/DatabaseImport/HomebrewDatabaseDetector.tsx",
+      "sha256": "579043933a6f0c7bacb15801cea006f9df4680ab70019d8b940f766bf45d11e5"
+    },
+    "frontend/src/components/DatabaseImport/LegacyDatabaseImport.tsx": {
+      "source": "ZhiHui/frontend/src/components/DatabaseImport/LegacyDatabaseImport.tsx",
+      "sha256": "ac76b86b076fba903338730874b30cca0030e8a2a334b2ced04dec9af3f55d52"
+    },
+    "frontend/src/components/ImportAudio/ImportAudioDialog.tsx": {
+      "source": "ZhiHui/frontend/src/components/ImportAudio/ImportAudioDialog.tsx",
+      "sha256": "d45e01575034f80f112126c0b2eff28b5d852ad54771530e60d4ff002af56b6d"
+    },
+    "frontend/src/components/ImportAudio/ImportDropOverlay.tsx": {
+      "source": "ZhiHui/frontend/src/components/ImportAudio/ImportDropOverlay.tsx",
+      "sha256": "d0eed1353812aac42673130d3f7fc1bb055968c7fb1ab56f481e0e3113de4490"
+    },
+    "frontend/src/components/ImportAudio/ImportQueuePanel.tsx": {
+      "source": "ZhiHui/frontend/src/components/ImportAudio/ImportQueuePanel.tsx",
+      "sha256": "6048bc288fd849a3ec17b9e71556f3415a2d219155451815d1015c0ba80a9b4c"
+    },
+    "frontend/src/components/ImportAudio/index.ts": {
+      "source": "ZhiHui/frontend/src/components/ImportAudio/index.ts",
+      "sha256": "10e04dd8d4c91de3f0d567caff1e317b5cd5827bc8ad2fa2a86c926be0504e09"
+    },
+    "frontend/src/components/License/LicenseBanner.tsx": {
+      "source": "ZhiHui/frontend/src/components/License/LicenseBanner.tsx",
+      "sha256": "c9d5d80039b180cfebeedceee41637ec9ee2c1e8fbf5f8006243e776b3cd20f8"
+    },
+    "frontend/src/components/License/LicenseSettings.tsx": {
+      "source": "ZhiHui/frontend/src/components/License/LicenseSettings.tsx",
+      "sha256": "59dc0d28c847cdcce5a1a13aba647ef5e13e8487d7b2502e4070938a1fa83666"
+    },
+    "frontend/src/components/MainContent/index.tsx": {
+      "source": "ZhiHui/frontend/src/components/MainContent/index.tsx",
+      "sha256": "0dc1c70a25e571d62ac93b7f42a9f41ada5f519fb5fb775caa98c0092360c5be"
+    },
+    "frontend/src/components/MainNav/index.tsx": {
+      "source": "ZhiHui/frontend/src/components/MainNav/index.tsx",
+      "sha256": "5c5c04300621c76c8b41ff67a4516ea8114d5628f078ffab65fb80e4c69c3f4f"
+    },
+    "frontend/src/components/MeetingDetails/ExportDialog.tsx": {
+      "source": "ZhiHui/frontend/src/components/MeetingDetails/ExportDialog.tsx",
+      "sha256": "e0dd113cd8c793be3567e5ee51e6765673980c1b707529dcd004a04650e22e6e"
+    },
+    "frontend/src/components/MeetingDetails/RetranscribeDialog.tsx": {
+      "source": "ZhiHui/frontend/src/components/MeetingDetails/RetranscribeDialog.tsx",
+      "sha256": "7fef3b2da4ffb811d9f47bafd17cb2798e46919f93bd37b56d1cd87ec4607f67"
+    },
+    "frontend/src/components/MeetingDetails/SummaryGeneratorButtonGroup.tsx": {
+      "source": "ZhiHui/frontend/src/components/MeetingDetails/SummaryGeneratorButtonGroup.tsx",
+      "sha256": "94a678f3001a64bd72a25d927040584ae0bc38bd223bdfbab507d5e676149739"
+    },
+    "frontend/src/components/MeetingDetails/SummaryPanel.tsx": {
+      "source": "ZhiHui/frontend/src/components/MeetingDetails/SummaryPanel.tsx",
+      "sha256": "f6092b4fe3dfd84d576f964dba3804f6aa49d082653185a13ce6647d97993869"
+    },
+    "frontend/src/components/MeetingDetails/SummaryUpdaterButtonGroup.tsx": {
+      "source": "ZhiHui/frontend/src/components/MeetingDetails/SummaryUpdaterButtonGroup.tsx",
+      "sha256": "9f41ef83b749fcb4d46d996cfa8061b0dd01cee0046faa70da27deaab0fc39a4"
+    },
+    "frontend/src/components/MeetingDetails/TemplateManagerDialog.tsx": {
+      "source": "ZhiHui/frontend/src/components/MeetingDetails/TemplateManagerDialog.tsx",
+      "sha256": "ac9c04a4555deb7f43bea26cab358ae7fbbc5920bd535908adef2279346a8f2f"
+    },
+    "frontend/src/components/MeetingDetails/TranscriptButtonGroup.tsx": {
+      "source": "ZhiHui/frontend/src/components/MeetingDetails/TranscriptButtonGroup.tsx",
+      "sha256": "4c7c59dce363d11ceab4471a5002468bf4d1d40ffef412f1b69db6739ae9e223"
+    },
+    "frontend/src/components/MeetingDetails/TranscriptPanel.tsx": {
+      "source": "ZhiHui/frontend/src/components/MeetingDetails/TranscriptPanel.tsx",
+      "sha256": "4fab6b594da1a0f8b174e785071272201837f32ac21d0dbe8243622d4bee24af"
+    },
+    "frontend/src/components/molecules/form-components/form-input-item.tsx": {
+      "source": "ZhiHui/frontend/src/components/molecules/form-components/form-input-item.tsx",
+      "sha256": "b5647fff1b78d5a61712ad5d966b72e08e91d6f9c986b51ef88662aa39c84781"
+    },
+    "frontend/src/components/molecules/form-components/form-input-switch.tsx": {
+      "source": "ZhiHui/frontend/src/components/molecules/form-components/form-input-switch.tsx",
+      "sha256": "f7c82f4c9a30e2417cd7023b66a963d9a653345e0f5b42c52d11efade1d67322"
+    },
+    "frontend/src/components/molecules/form-components/form-select-item.tsx": {
+      "source": "ZhiHui/frontend/src/components/molecules/form-components/form-select-item.tsx",
+      "sha256": "cb4228ab73cee5df26fa984691ac645fcffa37e54c895fabc317d706ab25a0c6"
+    },
+    "frontend/src/components/onboarding/index.ts": {
+      "source": "ZhiHui/frontend/src/components/onboarding/index.ts",
+      "sha256": "05fe4729f061645d21e012b1cef8bf61b0e8aa1368497211dcf99d19c31de618"
+    },
+    "frontend/src/components/onboarding/OnboardingContainer.tsx": {
+      "source": "ZhiHui/frontend/src/components/onboarding/OnboardingContainer.tsx",
+      "sha256": "b5ad5c74853e0a013bad64f0d3d49970382df6f5cae25b368ffd1b7fe97076c9"
+    },
+    "frontend/src/components/onboarding/OnboardingFlow.tsx": {
+      "source": "ZhiHui/frontend/src/components/onboarding/OnboardingFlow.tsx",
+      "sha256": "4e0f61dc732258607ff1bc50f73e74d71df1863c9972b370ca4ecde517f4f113"
+    },
+    "frontend/src/components/onboarding/shared/index.ts": {
+      "source": "ZhiHui/frontend/src/components/onboarding/shared/index.ts",
+      "sha256": "3d9383f4ff230b064e0b3aead2b91a2fb9c67e933e72478d700f2f7d2223d205"
+    },
+    "frontend/src/components/onboarding/shared/PermissionRow.tsx": {
+      "source": "ZhiHui/frontend/src/components/onboarding/shared/PermissionRow.tsx",
+      "sha256": "a8ab6735688c69f6bc3aec6140ba8fa475b26f08008c3f40217a5863b4b55998"
+    },
+    "frontend/src/components/onboarding/shared/ProgressIndicator.tsx": {
+      "source": "ZhiHui/frontend/src/components/onboarding/shared/ProgressIndicator.tsx",
+      "sha256": "d89ea2176601968e52439c3372eca78c03e1e42afd5babe84c7ff75fe73af5a9"
+    },
+    "frontend/src/components/onboarding/shared/StatusIndicator.tsx": {
+      "source": "ZhiHui/frontend/src/components/onboarding/shared/StatusIndicator.tsx",
+      "sha256": "dbd4668be21783b123fcf63babf66022ff7ff204c176cb4809f285b15900e490"
+    },
+    "frontend/src/components/onboarding/steps/DownloadProgressStep.tsx": {
+      "source": "ZhiHui/frontend/src/components/onboarding/steps/DownloadProgressStep.tsx",
+      "sha256": "047215fd03fa526505dbd7ed96b9522150a2eb06fb443e0c0f2d9ec9273290dd"
+    },
+    "frontend/src/components/onboarding/steps/index.ts": {
+      "source": "ZhiHui/frontend/src/components/onboarding/steps/index.ts",
+      "sha256": "b267445144d05b7bb779f47a3b2b70b426bac4a4eebc8ad1e2afbe1607201a75"
+    },
+    "frontend/src/components/onboarding/steps/OfflineImportStep.tsx": {
+      "source": "ZhiHui/frontend/src/components/onboarding/steps/OfflineImportStep.tsx",
+      "sha256": "41ce1bf1f8a4c8273946c87278cfb8ee31b5258aeb613335eb8d19cb5b1b1807"
+    },
+    "frontend/src/components/onboarding/steps/PermissionsStep.tsx": {
+      "source": "ZhiHui/frontend/src/components/onboarding/steps/PermissionsStep.tsx",
+      "sha256": "79c44304853f98e43337747f91ed138bbbc32aa94239a02bed92b6cd2c9900f9"
+    },
+    "frontend/src/components/onboarding/steps/SetupOverviewStep.tsx": {
+      "source": "ZhiHui/frontend/src/components/onboarding/steps/SetupOverviewStep.tsx",
+      "sha256": "1ba24043b8cc98e4b81b85b9e67fdf990abe1f34ca5354291166bc1effd2399b"
+    },
+    "frontend/src/components/onboarding/steps/WelcomeStep.tsx": {
+      "source": "ZhiHui/frontend/src/components/onboarding/steps/WelcomeStep.tsx",
+      "sha256": "21341bd41413e5844160dcbf8b2a05def8c42765a70d647728e5090e1622ae5d"
+    },
+    "frontend/src/components/shared/DownloadProgressToast.tsx": {
+      "source": "ZhiHui/frontend/src/components/shared/DownloadProgressToast.tsx",
+      "sha256": "74cfbb95f3e1296811e0cf7e4245e3b087beb47b735dec78213e9be3bc655a04"
+    },
+    "frontend/src/components/Sidebar/index.tsx": {
+      "source": "ZhiHui/frontend/src/components/Sidebar/index.tsx",
+      "sha256": "3c4ba3ab01903c0d9c3f7abd151e4080d7a3999ada278cd01fea2aae370dca47"
+    },
+    "frontend/src/components/Sidebar/SidebarProvider.tsx": {
+      "source": "ZhiHui/frontend/src/components/Sidebar/SidebarProvider.tsx",
+      "sha256": "d35fe5e89f63a70db4b73a9a405a5a91470e4077e52973f5256465b8198a21fe"
+    },
+    "frontend/src/components/Sidebar/SummaryQueuePanel.tsx": {
+      "source": "ZhiHui/frontend/src/components/Sidebar/SummaryQueuePanel.tsx",
+      "sha256": "30df2165b7f61ed7a1f0fdf63e67067ce166a08c87b2fad02046372029ee74fb"
+    },
+    "frontend/src/components/TranscriptRecovery/index.ts": {
+      "source": "ZhiHui/frontend/src/components/TranscriptRecovery/index.ts",
+      "sha256": "2e69571e685041cb4d7c7f44440f91617db4ba3e5119609e67f0a76c10121fe1"
+    },
+    "frontend/src/components/TranscriptRecovery/TranscriptRecovery.tsx": {
+      "source": "ZhiHui/frontend/src/components/TranscriptRecovery/TranscriptRecovery.tsx",
+      "sha256": "a0f41a98e384faf12abad6c0dd7dadb94c732a098d5c65614701c3f7767ab3c9"
+    },
+    "frontend/src/components/ui/accordion.tsx": {
+      "source": "ZhiHui/frontend/src/components/ui/accordion.tsx",
+      "sha256": "b009fb29fd8ac179d7bc3fe13f73c2436419c05e0a9db5db4d15cce139eb9347"
+    },
+    "frontend/src/components/ui/alert.tsx": {
+      "source": "ZhiHui/frontend/src/components/ui/alert.tsx",
+      "sha256": "5950ac01377e7eedc94b00eb3fee678745e4cc1a72b5343867f0733d07db6660"
+    },
+    "frontend/src/components/ui/button-group.tsx": {
+      "source": "ZhiHui/frontend/src/components/ui/button-group.tsx",
+      "sha256": "e3716d270e9ef6457b5cd29464ae00194abc8093c08ebf726c9204d7a69231d9"
+    },
+    "frontend/src/components/ui/button.tsx": {
+      "source": "ZhiHui/frontend/src/components/ui/button.tsx",
+      "sha256": "bff289bcbb26b69908979bb84864e507aa570dba8430a6c4e47f3d273d4b0186"
+    },
+    "frontend/src/components/ui/command.tsx": {
+      "source": "ZhiHui/frontend/src/components/ui/command.tsx",
+      "sha256": "5a57ebc119f2357b097098d22865d45de8fda623ee88fe98b99999838c13633b"
+    },
+    "frontend/src/components/ui/dialog.tsx": {
+      "source": "ZhiHui/frontend/src/components/ui/dialog.tsx",
+      "sha256": "fe70a91bb924ef3a40b7504e6847ef9a57aed3b503d2a7dbb7610e821ea40b6f"
+    },
+    "frontend/src/components/ui/dropdown-menu.tsx": {
+      "source": "ZhiHui/frontend/src/components/ui/dropdown-menu.tsx",
+      "sha256": "dc109123ecd59af01d07aa9f3a8e8a7085bd3f337388c5369799ab1ce6c2d45f"
+    },
+    "frontend/src/components/ui/form.tsx": {
+      "source": "ZhiHui/frontend/src/components/ui/form.tsx",
+      "sha256": "9027dc0d91f785b6fc0ef579d4d6c9423f8634be9fd05f83fc4d8dfdc006488b"
+    },
+    "frontend/src/components/ui/input-group.tsx": {
+      "source": "ZhiHui/frontend/src/components/ui/input-group.tsx",
+      "sha256": "dcb76b7c1f6c3ed36437c1bed6c46dd735b1091ba162bcb5fca0a7d2167f3307"
+    },
+    "frontend/src/components/ui/input.tsx": {
+      "source": "ZhiHui/frontend/src/components/ui/input.tsx",
+      "sha256": "6299a6a387dc55e528aec4342deaea0b83f1ea3a365c135a31a18ee55334f441"
+    },
+    "frontend/src/components/ui/label.tsx": {
+      "source": "ZhiHui/frontend/src/components/ui/label.tsx",
+      "sha256": "2eac8fbb04002c42b0fbc4062d20d131e421796eaf65c37d2049e29e42ecbc5a"
+    },
+    "frontend/src/components/ui/popover.tsx": {
+      "source": "ZhiHui/frontend/src/components/ui/popover.tsx",
+      "sha256": "69f74cdd76588a1249522ff8009e044eee6080ad8cf26cb08d7a5fc3281f0255"
+    },
+    "frontend/src/components/ui/progress.tsx": {
+      "source": "ZhiHui/frontend/src/components/ui/progress.tsx",
+      "sha256": "6b3b4b69a1cb361076174892e9a96e1a09020307616965ef89f2f7e2495b57a9"
+    },
+    "frontend/src/components/ui/scroll-area.tsx": {
+      "source": "ZhiHui/frontend/src/components/ui/scroll-area.tsx",
+      "sha256": "edbaecbc4f5cb6e16ecb39d3678d81b26e1a968dfc273dbb77821de3c8626377"
+    },
+    "frontend/src/components/ui/select.tsx": {
+      "source": "ZhiHui/frontend/src/components/ui/select.tsx",
+      "sha256": "3d93ae07a8f3fe121ba60f4439e26bd7859f247eb8bfcafcf4b4a8a069888eec"
+    },
+    "frontend/src/components/ui/separator.tsx": {
+      "source": "ZhiHui/frontend/src/components/ui/separator.tsx",
+      "sha256": "995c54f1c5c688f712a675fe35d55bcada2b31dba561dcc71553a1ad601e59ec"
+    },
+    "frontend/src/components/ui/sheet.tsx": {
+      "source": "ZhiHui/frontend/src/components/ui/sheet.tsx",
+      "sha256": "363f8e06aa5b53c6475f445117f60fa9294be79e9e4f1f5bf70886800188124e"
+    },
+    "frontend/src/components/ui/switch.tsx": {
+      "source": "ZhiHui/frontend/src/components/ui/switch.tsx",
+      "sha256": "ab2d009e0fa7366f47ae1a6e0ca35d0aac55c6264c5f61718e12366c196163b4"
+    },
+    "frontend/src/components/ui/tabs.tsx": {
+      "source": "ZhiHui/frontend/src/components/ui/tabs.tsx",
+      "sha256": "d41aded0394298102614635e15d709369c6bdae8fe79b918b8341ef39407ee03"
+    },
+    "frontend/src/components/ui/textarea.tsx": {
+      "source": "ZhiHui/frontend/src/components/ui/textarea.tsx",
+      "sha256": "ec7c92aaed80f6923a7caa4bfe4eead395b50a7001504fd7fbb0b9381804dae9"
+    },
+    "frontend/src/components/ui/tooltip.tsx": {
+      "source": "ZhiHui/frontend/src/components/ui/tooltip.tsx",
+      "sha256": "ce6afa34fb9dae51053a863b4c3f7c6e55f3da23b00149f31a8e4402bc963be0"
+    },
+    "frontend/src/components/ui/visually-hidden.tsx": {
+      "source": "ZhiHui/frontend/src/components/ui/visually-hidden.tsx",
+      "sha256": "d365d4005dae9aa53581a4c7ec42fd9c5f4b96e0ce0608ba2d9f3f6c8ed11eba"
+    },
+    "frontend/src/config/api.ts": {
+      "source": "ZhiHui/frontend/src/config/api.ts",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "frontend/src/constants/audioFormats.ts": {
+      "source": "ZhiHui/frontend/src/constants/audioFormats.ts",
+      "sha256": "5afe8cfb236fa650cb148072f41f5cce5f84fb7957bca920d949bec17bca5b2d"
+    },
+    "frontend/src/constants/languages.ts": {
+      "source": "ZhiHui/frontend/src/constants/languages.ts",
+      "sha256": "68b81a2d70344e99100418c2a51903ac32d526dc37535a5ec69da67ff7de2af4"
+    },
+    "frontend/src/constants/modelDefaults.ts": {
+      "source": "ZhiHui/frontend/src/constants/modelDefaults.ts",
+      "sha256": "ad108ec67630fa1babb3a9f5f4c1b99143a67dd6f36dccb38289bb555176f0ef"
+    },
+    "frontend/src/contexts/ConfigContext.tsx": {
+      "source": "ZhiHui/frontend/src/contexts/ConfigContext.tsx",
+      "sha256": "462788c3b53243e121766402953a0f100841f98312fa23dc29050a18583bf5ad"
+    },
+    "frontend/src/contexts/ImportDialogContext.tsx": {
+      "source": "ZhiHui/frontend/src/contexts/ImportDialogContext.tsx",
+      "sha256": "d04540ec4433235a9b31f727d3c81d8c464694057e967f60286d37cff4653c41"
+    },
+    "frontend/src/contexts/LicenseContext.tsx": {
+      "source": "ZhiHui/frontend/src/contexts/LicenseContext.tsx",
+      "sha256": "96198a09e8a96b0d46c9c3fcd150aee6f903243f9b0ba40b0124cbbf9da8f9e8"
+    },
+    "frontend/src/contexts/OllamaDownloadContext.tsx": {
+      "source": "ZhiHui/frontend/src/contexts/OllamaDownloadContext.tsx",
+      "sha256": "0dcf54a30ad69c607af7f3f35ae1bd2aff385977b65784ea2393e1942c69deaf"
+    },
+    "frontend/src/contexts/OnboardingContext.tsx": {
+      "source": "ZhiHui/frontend/src/contexts/OnboardingContext.tsx",
+      "sha256": "1896ec334abed6d0b8f32cbb434e4277b7296c51cf1d2c39a22289de3399f494"
+    },
+    "frontend/src/contexts/RecordingPostProcessingProvider.tsx": {
+      "source": "ZhiHui/frontend/src/contexts/RecordingPostProcessingProvider.tsx",
+      "sha256": "dd57aa8f4307ca45fd67eb00aef26f5fc7aef54c8cc153ccca09e789b87d4c13"
+    },
+    "frontend/src/contexts/RecordingStateContext.tsx": {
+      "source": "ZhiHui/frontend/src/contexts/RecordingStateContext.tsx",
+      "sha256": "e5a7bdcd18bca8de01919847bd3ec613f940e79e476d1255beeab0095cd28a95"
+    },
+    "frontend/src/contexts/TranscriptContext.tsx": {
+      "source": "ZhiHui/frontend/src/contexts/TranscriptContext.tsx",
+      "sha256": "db3df44f58cd1c8869fda7bb997979fcd4128111688fb275c52b691e9b434486"
+    },
+    "frontend/src/hooks/useAudioPlayer.ts": {
+      "source": "ZhiHui/frontend/src/hooks/useAudioPlayer.ts",
+      "sha256": "153d848d6b847c8f7e4c4e46b39fb9ba79e2a66de90037fb461bdc0197ead744"
+    },
+    "frontend/src/hooks/useAutoScroll.ts": {
+      "source": "ZhiHui/frontend/src/hooks/useAutoScroll.ts",
+      "sha256": "0b5bba6f861ab5347ab768d64ca5e3309bb16b17e899497f65196a0bbb849c54"
+    },
+    "frontend/src/hooks/useImportAudio.ts": {
+      "source": "ZhiHui/frontend/src/hooks/useImportAudio.ts",
+      "sha256": "a5a959341c673494c47e150e21a18a4d00ccd49570e7a2b7eb477e13d06f4961"
+    },
+    "frontend/src/hooks/useModalState.ts": {
+      "source": "ZhiHui/frontend/src/hooks/useModalState.ts",
+      "sha256": "b55f613454dbca90cceeaeaffe9ac0fcc04de84b25cc7c77a93cea40b29b2c1a"
+    },
+    "frontend/src/hooks/useNavigation.ts": {
+      "source": "ZhiHui/frontend/src/hooks/useNavigation.ts",
+      "sha256": "6eea3dc34b1af7d26a171ca17b4375f1b928c5d1df099f3c76cd316603d9a94f"
+    },
+    "frontend/src/hooks/usePaginatedTranscripts.ts": {
+      "source": "ZhiHui/frontend/src/hooks/usePaginatedTranscripts.ts",
+      "sha256": "1ddb1b770687d1a35491ddbbb9936811792e45a78270a314668d331a3c1578da"
+    },
+    "frontend/src/hooks/usePermissionCheck.ts": {
+      "source": "ZhiHui/frontend/src/hooks/usePermissionCheck.ts",
+      "sha256": "523b199eec928f05453c94c107158e6d23f8ad92a264045139dd96ef93bcf34e"
+    },
+    "frontend/src/hooks/usePlatform.ts": {
+      "source": "ZhiHui/frontend/src/hooks/usePlatform.ts",
+      "sha256": "c345c478af09d30243868846d53f5dbfcfbff37baa1f7bba0b47aa2f15b1bf41"
+    },
+    "frontend/src/hooks/useProcessingProgress.ts": {
+      "source": "ZhiHui/frontend/src/hooks/useProcessingProgress.ts",
+      "sha256": "5fa8f9be32cd08307b91a75bab94d670ff5d19558a9c010d5799dfd97b36ee90"
+    },
+    "frontend/src/hooks/useRecentLanguages.ts": {
+      "source": "ZhiHui/frontend/src/hooks/useRecentLanguages.ts",
+      "sha256": "f8e99f1f0e7575ccac7929d741468ae6db5e68afae6b49c2c469f8b31974cfb2"
+    },
+    "frontend/src/hooks/useRecordingStart.ts": {
+      "source": "ZhiHui/frontend/src/hooks/useRecordingStart.ts",
+      "sha256": "e14f294375336f1e3bc73bac2c9cc5c45a57f3c8e745a8ede69396e578efa2b6"
+    },
+    "frontend/src/hooks/useRecordingStateSync.ts": {
+      "source": "ZhiHui/frontend/src/hooks/useRecordingStateSync.ts",
+      "sha256": "891ab85e9f2998362e3036ae54b46156a778f09e0948de3aa4f6f8071cc6f1ac"
+    },
+    "frontend/src/hooks/useRecordingStop.ts": {
+      "source": "ZhiHui/frontend/src/hooks/useRecordingStop.ts",
+      "sha256": "5b1f7730a34f74ee0f5c08f3952ccd1eb2e3137229da387c021a8b7e01260093"
+    },
+    "frontend/src/hooks/useTranscriptionModels.ts": {
+      "source": "ZhiHui/frontend/src/hooks/useTranscriptionModels.ts",
+      "sha256": "4c7bc3fe0c2668c5e42e6a63ac6c211db70e0488c3ea4da06740ac52bc1593b3"
+    },
+    "frontend/src/hooks/useTranscriptRecovery.ts": {
+      "source": "ZhiHui/frontend/src/hooks/useTranscriptRecovery.ts",
+      "sha256": "42941b3ce8d76e6e47bb397d86e9d759bf12f53ca164f4233814b984f441ea2f"
+    },
+    "frontend/src/hooks/useTranscriptStreaming.ts": {
+      "source": "ZhiHui/frontend/src/hooks/useTranscriptStreaming.ts",
+      "sha256": "6d705a1df4535b81c183dde66a552b9bd2adca0c19c12e8a38a81b04aee4720c"
+    },
+    "frontend/src/hooks/useUpdateCheck.ts": {
+      "source": "ZhiHui/frontend/src/hooks/useUpdateCheck.ts",
+      "sha256": "4df0978b8093307f92dc0e83e774614a1fbdd5db9c026ad6dbf63043acc72127"
+    },
+    "frontend/src/hooks/meeting-details/useCopyOperations.ts": {
+      "source": "ZhiHui/frontend/src/hooks/meeting-details/useCopyOperations.ts",
+      "sha256": "17ada539719713754d9321895eb89fcbf31481c14c2b61e8ce012c29e242cf96"
+    },
+    "frontend/src/hooks/meeting-details/useMeetingData.ts": {
+      "source": "ZhiHui/frontend/src/hooks/meeting-details/useMeetingData.ts",
+      "sha256": "a94081947e8c51ed9bef8c60c6d16d6ce556636ab0fe25b52bed9e668efc1394"
+    },
+    "frontend/src/hooks/meeting-details/useMeetingOperations.ts": {
+      "source": "ZhiHui/frontend/src/hooks/meeting-details/useMeetingOperations.ts",
+      "sha256": "98dc0ab1b9802b57c207df6d93a7201662f864d454fe0b715ddd82f300a23e29"
+    },
+    "frontend/src/hooks/meeting-details/useModelConfiguration.ts": {
+      "source": "ZhiHui/frontend/src/hooks/meeting-details/useModelConfiguration.ts",
+      "sha256": "e2613a3e67aade6d11481ecebd5966a99711f5ae62480d37d53e15f48ffcbf78"
+    },
+    "frontend/src/hooks/meeting-details/useSummaryGeneration.ts": {
+      "source": "ZhiHui/frontend/src/hooks/meeting-details/useSummaryGeneration.ts",
+      "sha256": "13bbe86dd2f7c3378ac3d23bcce011903387d9d53ddb51260723a14c405c1705"
+    },
+    "frontend/src/hooks/meeting-details/useTemplates.ts": {
+      "source": "ZhiHui/frontend/src/hooks/meeting-details/useTemplates.ts",
+      "sha256": "67ada5a81abfeefee1735e7f4eae8bed75620251a9788762c2066f4b4af8e256"
+    },
+    "frontend/src/lib/analytics.ts": {
+      "source": "ZhiHui/frontend/src/lib/analytics.ts",
+      "sha256": "de7183ac6d8a4881a3368fba2035dd46e609d3e03a57910a7b000a2eb1b17b42"
+    },
+    "frontend/src/lib/asr-languages.ts": {
+      "source": "ZhiHui/frontend/src/lib/asr-languages.ts",
+      "sha256": "edf39f8ac6eba608250c383aeb52cb4aca70fc7ce0dc0dddfdcbe32b1bbe1eb1"
+    },
+    "frontend/src/lib/blocknote-markdown.ts": {
+      "source": "ZhiHui/frontend/src/lib/blocknote-markdown.ts",
+      "sha256": "c78f624bc46de23fdf6997dad36b026d2c0c9fa5d20f3d9027bd2ba05abde0e3"
+    },
+    "frontend/src/lib/builtin-ai.ts": {
+      "source": "ZhiHui/frontend/src/lib/builtin-ai.ts",
+      "sha256": "ff855d7dae8d002ce384fc780ec1aaee121d351e9bdbf35671b4702027e4a97b"
+    },
+    "frontend/src/lib/errorMessages.ts": {
+      "source": "ZhiHui/frontend/src/lib/errorMessages.ts",
+      "sha256": "941bf4529b3355631c3a320534832df5b9ad00c2989a61337d8ef8397f4077a2"
+    },
+    "frontend/src/lib/onboarding-summary-model.ts": {
+      "source": "ZhiHui/frontend/src/lib/onboarding-summary-model.ts",
+      "sha256": "f2a9e5a3affbbbc98df00b9d3541cf230b809ac2a9ea1c246b9cff4a35e40d04"
+    },
+    "frontend/src/lib/parakeet.ts": {
+      "source": "ZhiHui/frontend/src/lib/parakeet.ts",
+      "sha256": "d3159560afefb8c506d8e9da38f0417a003b11bcef9dfeb27bed7cbab0836152"
+    },
+    "frontend/src/lib/recordingNotification.tsx": {
+      "source": "ZhiHui/frontend/src/lib/recordingNotification.tsx",
+      "sha256": "a5a9885b5cab42cb1f863d3e68083e992ff2e51c6156848d8f64e96757538c3b"
+    },
+    "frontend/src/lib/sensevoice.ts": {
+      "source": "ZhiHui/frontend/src/lib/sensevoice.ts",
+      "sha256": "58ed8fd8d8d59c8e85ed538d2cade1dc0744460a45452e4a3c24b5f8964ae7f5"
+    },
+    "frontend/src/lib/speaker.ts": {
+      "source": "ZhiHui/frontend/src/lib/speaker.ts",
+      "sha256": "bb54df99e8c7db6b3c722e2b9ab7f169a8d0a79e7004840648a60b86c0c06445"
+    },
+    "frontend/src/lib/summary-language-preferences.ts": {
+      "source": "ZhiHui/frontend/src/lib/summary-language-preferences.ts",
+      "sha256": "29ad2c4dd0cdd718d6f6e0bc1566a4ea89f17df49c6e4921d245824f68913100"
+    },
+    "frontend/src/lib/summary-languages.ts": {
+      "source": "ZhiHui/frontend/src/lib/summary-languages.ts",
+      "sha256": "1bba5290ade551f083261318b3bf47c9e3041334afd7a22cfd582c5b2da89705"
+    },
+    "frontend/src/lib/utils.ts": {
+      "source": "ZhiHui/frontend/src/lib/utils.ts",
+      "sha256": "46d283659a9c2b5ad952de9f1d26c20ab7e1beef157f04aa1d24cab6b13b7ac8"
+    },
+    "frontend/src/lib/whisper.ts": {
+      "source": "ZhiHui/frontend/src/lib/whisper.ts",
+      "sha256": "1db4f5454464e120a7f433ee93690a0f456f3df5bec6c94d94484f841a7b73fb"
+    },
+    "frontend/src/lib/export/blockUtils.ts": {
+      "source": "ZhiHui/frontend/src/lib/export/blockUtils.ts",
+      "sha256": "8d13843c715076abd5b2ecd4f91411fbac153c043ea66d15c12bf6482b687580"
+    },
+    "frontend/src/lib/export/exportDocx.ts": {
+      "source": "ZhiHui/frontend/src/lib/export/exportDocx.ts",
+      "sha256": "3022cb10adb5bb3a0f1a9f2fa230be9618c0f97db31ffad97152ce2d454042a4"
+    },
+    "frontend/src/lib/export/exportPdf.ts": {
+      "source": "ZhiHui/frontend/src/lib/export/exportPdf.ts",
+      "sha256": "db235a649635c0d6f2040395a164bcbdc256404511bb133e3fdbc7803749e209"
+    },
+    "frontend/src/lib/i18n/config.ts": {
+      "source": "ZhiHui/frontend/src/lib/i18n/config.ts",
+      "sha256": "2538f7df7df3f522b3c23945a6e877b2c8bed26029a3d888ca2413453fe03998"
+    },
+    "frontend/src/lib/i18n/locales/en.json": {
+      "source": "ZhiHui/frontend/src/lib/i18n/locales/en.json",
+      "sha256": "e235eeda7bbca257d674ae5d02143be84a7b7e0ce9381a12f0679fef7da3c80c"
+    },
+    "frontend/src/lib/i18n/locales/zh-CN.json": {
+      "source": "ZhiHui/frontend/src/lib/i18n/locales/zh-CN.json",
+      "sha256": "7bc82f71e61ae63363e0a28645b41b14c9e7ebe0b87d36ab0fd215849f230cb4"
+    },
+    "frontend/src/services/configService.ts": {
+      "source": "ZhiHui/frontend/src/services/configService.ts",
+      "sha256": "b1edf7604fbd217854ac4b80987a8fad23b15b1c574d5d308e397266bae958e6"
+    },
+    "frontend/src/services/indexedDBService.ts": {
+      "source": "ZhiHui/frontend/src/services/indexedDBService.ts",
+      "sha256": "341799fa6747888024e852062f6dc3a9b007c38ff17017405e839d789baeb6ae"
+    },
+    "frontend/src/services/recordingService.ts": {
+      "source": "ZhiHui/frontend/src/services/recordingService.ts",
+      "sha256": "0d0c97f7ddbdfbde1969d92bcf74fe342b4094a2c4858ca1be251d75cc575c9d"
+    },
+    "frontend/src/services/storageService.ts": {
+      "source": "ZhiHui/frontend/src/services/storageService.ts",
+      "sha256": "624b1058f43cf5d2b85f431e514d4c599aba981012313b8405a3e3af5849cbfa"
+    },
+    "frontend/src/services/transcriptService.ts": {
+      "source": "ZhiHui/frontend/src/services/transcriptService.ts",
+      "sha256": "86093096c9acd9b28e31c7cda46ff74d32e646f4eb596bf63d824f1e8f39bb05"
+    },
+    "frontend/src/services/updateService.ts": {
+      "source": "ZhiHui/frontend/src/services/updateService.ts",
+      "sha256": "3957fdbd1d10e9db82dbe13e47c0d61e0bf5578874d5bef06682d77655f4dede"
+    },
+    "frontend/src/types/betaFeatures.ts": {
+      "source": "ZhiHui/frontend/src/types/betaFeatures.ts",
+      "sha256": "a84d83d818869aed0aaf818e06d0eb83ec4bc977e3fe2b2262d3433f16b0895a"
+    },
+    "frontend/src/types/index.ts": {
+      "source": "ZhiHui/frontend/src/types/index.ts",
+      "sha256": "c6c5c7d4e4db10694c517c37d233120ac8a9b62679e178be2151af1055525e24"
+    },
+    "frontend/src/types/onboarding.ts": {
+      "source": "ZhiHui/frontend/src/types/onboarding.ts",
+      "sha256": "75ee2579bd140c91843a8cb38e66f98f4ad10782673f3c667a3fc7e89095d7a5"
+    },
+    "frontend/src/types/summary.ts": {
+      "source": "ZhiHui/frontend/src/types/summary.ts",
+      "sha256": "8b688cd376258b3440e75726069c1b87e49698c2549f9621fba1a47c1c86a7fa"
+    },
+    "frontend/public/file.svg": {
+      "source": "ZhiHui/frontend/public/file.svg",
+      "sha256": "2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4"
+    },
+    "frontend/public/globe.svg": {
+      "source": "ZhiHui/frontend/public/globe.svg",
+      "sha256": "b614b9bf183925957661ac851498fe1d8029fd43a62fbfed86f9e2624a57e7cf"
+    },
+    "frontend/public/icon_128x128.png": {
+      "source": "ZhiHui/frontend/public/icon_128x128.png",
+      "sha256": "cffce1a83f89ff46973f7c11791ebc3c73b49d8e07c473a8ff4603c9db6960a1"
+    },
+    "frontend/public/icon_32x32@2x.png": {
+      "source": "ZhiHui/frontend/public/icon_32x32@2x.png",
+      "sha256": "afa6946dc249f577f0eb031b2f58ed1d90a760c1f9519607b15163ecc1675d7a"
+    },
+    "frontend/public/logo-collapsed.png": {
+      "source": "ZhiHui/frontend/public/logo-collapsed.png",
+      "sha256": "2874107f8269219fcadb0748b298a74d61c37a3519da6cc214b2fc9ed6b009da"
+    },
+    "frontend/public/logo.png": {
+      "source": "ZhiHui/frontend/public/logo.png",
+      "sha256": "8d03d7a8b14d8592609ccea338b4c9281d99729c03e582f9b3d5a26787430dac"
+    },
+    "frontend/public/next.svg": {
+      "source": "ZhiHui/frontend/public/next.svg",
+      "sha256": "55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc"
+    },
+    "frontend/public/vercel.svg": {
+      "source": "ZhiHui/frontend/public/vercel.svg",
+      "sha256": "f081337b2fee635b455b63275406a3e7f39d6a014e25ad90dab5a67e62a12ac4"
+    },
+    "frontend/public/window.svg": {
+      "source": "ZhiHui/frontend/public/window.svg",
+      "sha256": "644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1"
+    },
+    "frontend/public/fonts/NotoSansSC-Bold.ttf": {
+      "source": "ZhiHui/frontend/public/fonts/NotoSansSC-Bold.ttf",
+      "sha256": "9a38ae0ab28cd5a256f9ea8e00dedc688aac17f7915fcb000572990afa956b96"
+    },
+    "frontend/public/fonts/NotoSansSC-Regular.ttf": {
+      "source": "ZhiHui/frontend/public/fonts/NotoSansSC-Regular.ttf",
+      "sha256": "d45f67f0a7c0ca3f256950777ce6a61cc7ce5f9696d02900cbbaac25f8aa7d16"
+    },
+    "frontend/package.json": {
+      "source": "ZhiHui/frontend/package.json",
+      "sha256": "eb35e2735a06b1d438ff5e4516ad99915b609d318b3fec4860ea572bf9acbeb7"
+    },
+    "frontend/pnpm-lock.yaml": {
+      "source": "ZhiHui/frontend/pnpm-lock.yaml",
+      "sha256": "37ff9c5e26ce59019718009bf7eba3ac146ca634dac2ae7b557dec05c68f4ad7"
+    },
+    "frontend/next.config.js": {
+      "source": "ZhiHui/frontend/next.config.js",
+      "sha256": "96e4c1d0f7af76800b09182ffaa711e3134de2627cdc2c5438f982cac6237cfb"
+    },
+    "frontend/tsconfig.json": {
+      "source": "ZhiHui/frontend/tsconfig.json",
+      "sha256": "4502ffbce87a29c95caebb663c4df9afe49952ff56ed3264d6fe5c3f13220076"
+    },
+    "frontend/tailwind.config.ts": {
+      "source": "ZhiHui/frontend/tailwind.config.ts",
+      "sha256": "8ff50eafc7cef0ffa0b8bb48f06e26663e9579f70d4a8a133d22892ac5b9ad0b"
+    },
+    "frontend/postcss.config.js": {
+      "source": "ZhiHui/frontend/postcss.config.js",
+      "sha256": "313a31170ebfa53925f49a22982f5698940ea19a34f6f357e3842a957b8e2006"
+    },
+    "frontend/postcss.config.mjs": {
+      "source": "ZhiHui/frontend/postcss.config.mjs",
+      "sha256": "ac31e2a95ef64fe27ceb4124e101675273107aae2e33bc490b01d919e7f03646"
+    },
+    "frontend/components.json": {
+      "source": "ZhiHui/frontend/components.json",
+      "sha256": "5a0f8a02dd9673027fbb754d4f5be4badc381227b7f67a52eb2ea46dc104b117"
+    },
+    "server/templates/daily_standup.json": {
+      "source": "ZhiHui/frontend/src-tauri/templates/daily_standup.json",
+      "sha256": "47203d7f6d95c3a2b01f392a5ee2129bd4aaf2b5447d9fa3938b391843c5cc4e"
+    },
+    "server/templates/general_document.json": {
+      "source": "ZhiHui/frontend/src-tauri/templates/general_document.json",
+      "sha256": "6b8a83d3e29bf8b5b64a52abe37a2d9a6f29734c0ca3a34e41034c722b21ae27"
+    },
+    "server/templates/project_sync.json": {
+      "source": "ZhiHui/frontend/src-tauri/templates/project_sync.json",
+      "sha256": "8f86750aeb63efac0d270a72b69af7abcd6ef8c33240377da01c362ed196c5e8"
+    },
+    "server/templates/psychatric_session.json": {
+      "source": "ZhiHui/frontend/src-tauri/templates/psychatric_session.json",
+      "sha256": "b55b071f1f712b54182a40cbc4d00a9d7fafe8f9f0b2ee122072b4251e3180da"
+    },
+    "server/templates/retrospective.json": {
+      "source": "ZhiHui/frontend/src-tauri/templates/retrospective.json",
+      "sha256": "d8066e66f77936b6aebc1e80128faf007cb276753d098a95d3c0b49c1f17d18f"
+    },
+    "server/templates/sales_marketing_client_call.json": {
+      "source": "ZhiHui/frontend/src-tauri/templates/sales_marketing_client_call.json",
+      "sha256": "b584a93aa1fb018caf2ede646fd6283dbff2c8d463c7b1768e47019cb8fd6179"
+    },
+    "server/templates/standard_meeting.json": {
+      "source": "ZhiHui/frontend/src-tauri/templates/standard_meeting.json",
+      "sha256": "c4a3dbab3b6f111c00f9c0aa0893e2c6e7cc795db7cb07349c4daaff9321501e"
+    },
+    "server/src/template_types.rs": {
+      "source": "ZhiHui/frontend/src-tauri/src/summary/templates/types.rs",
+      "sha256": "0c6bdc3a759d417c75992f7049e9a1149fd37a24db6d480b9d3b303c55c8d893"
+    }
+  },
+  "releaseSourceFileCount": 510
+}

@@ -1,0 +1,10 @@
+[Unit]
+Description=Renew zhihui.helms.wiki certificate
+Requires=docker.service
+After=docker.service nginx.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/docker run --rm --mount type=bind,src=/etc/letsencrypt,dst=/etc/letsencrypt --mount type=bind,src=/var/lib/zhihui-web-acme,dst=/var/lib/zhihui-web-acme certbot/certbot:v5.8.0 renew --quiet --cert-name zhihui.helms.wiki
+ExecStartPost=/usr/sbin/nginx -t
+ExecStartPost=/usr/bin/systemctl reload nginx

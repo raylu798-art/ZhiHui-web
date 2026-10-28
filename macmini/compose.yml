@@ -1,0 +1,65 @@
+name: zhihui-macmini
+x-environment: &environment
+  ZHIHUI_BIND: 0.0.0.0:8810
+  ZHIHUI_PUBLIC_URL: ${ZHIHUI_PUBLIC_URL:-http://127.0.0.1:8810}
+  ZHIHUI_DATA_DIR: /var/lib/zhihui-web
+  ZHIHUI_STATIC_DIR: /app/static
+  ZHIHUI_MASTER_KEY_FILE: /run/secrets/master_key
+  ZHIHUI_BUILD: "5"
+  ZHIHUI_ICP_NUMBER: ${ZHIHUI_ICP_NUMBER:-}
+  RUST_LOG: info
+services:
+  initialize:
+    profiles: [tools]
+    image: ${ZHIHUI_MAC_IMAGE:-zhihui-web:0.6.6-web.5-arm64}
+    platform: ${ZHIHUI_MAC_PLATFORM:-linux/arm64}
+    pull_policy: never
+    user: "0:0"
+    environment: *environment
+    entrypoint: [/bin/sh, /init-volumes.sh]
+    volumes:
+      - data:/var/lib/zhihui-web
+      - master:/run/secrets
+      - backups:/backup
+      - ./init-volumes.sh:/init-volumes.sh:ro
+  app:
+    image: ${ZHIHUI_MAC_IMAGE:-zhihui-web:0.6.6-web.5-arm64}
+    platform: ${ZHIHUI_MAC_PLATFORM:-linux/arm64}
+    pull_policy: never
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+      args:
+        BASE_REGISTRY: ${ZHIHUI_BASE_REGISTRY:-public.ecr.aws/docker}
+        PRODUCT_VERSION: 0.6.6
+        WEB_BUILD: "5"
+        SOURCE_SHA: 8f898da5873dcfcf8333ce3130dbd6e90aab6486534d1cca04373eae4982a173
+    restart: unless-stopped
+    init: true
+    user: "10001:10001"
+    read_only: true
+    environment: *environment
+    ports:
+      - "127.0.0.1:${ZHIHUI_MAC_PORT:-8810}:8810"
+    volumes:
+      - data:/var/lib/zhihui-web
+      - master:/run/secrets:ro
+      - backups:/backup
+    tmpfs:
+      - /tmp:size=128m,mode=1777
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    mem_limit: 1g
+    memswap_limit: 1g
+    cpus: 1.5
+    pids_limit: 128
+    stop_grace_period: 30s
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "3"
+volumes:
+  data:
+  master:
+  backups:

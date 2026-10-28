@@ -1,0 +1,16 @@
+{
+  "name": "zhihui-web",
+  "version": "0.6.6",
+  "private": true,
+  "packageManager": "pnpm@8.15.9",
+  "engines": { "node": ">=20" },
+  "pnpm": { "overrides": { "prosemirror-model": "1.25.3", "prosemirror-state": "1.4.3", "prosemirror-view": "1.41.3", "prosemirror-transform": "1.10.4", "prosemirror-tables": "1.8.1" } },
+  "scripts": { "dev": "node scripts/prepare.mjs && next dev -p 3120", "build": "node scripts/prepare.mjs && next build", "typecheck": "tsc --noEmit --incremental false", "lint": "tsc --noEmit --incremental false", "test": "node scripts/test.mjs" },
+  "dependencies": {
+    "@blocknote/core": "0.36.0", "@blocknote/react": "0.36.0", "@blocknote/shadcn": "0.36.0",
+    "docx": "9.7.1", "lucide-react": "0.469.0", "mammoth": "1.11.0", "next": "14.2.35", "pdfjs-dist": "4.10.38", "pdfmake": "0.3.11", "react": "18.3.1", "react-dom": "18.3.1", "react-markdown": "9.1.0", "remark-gfm": "4.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.19.12", "@types/pdfmake": "0.3.3", "@types/react": "18.3.31", "@types/react-dom": "18.3.7", "autoprefixer": "10.4.21", "postcss": "8.5.6", "tailwindcss": "3.4.17", "@tailwindcss/typography": "0.5.19", "typescript": "5.9.3"
+  }
+}

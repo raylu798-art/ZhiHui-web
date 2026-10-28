@@ -1,0 +1,13 @@
+[Unit]
+Description=Verified ZhiHui Web SQLite and recording backup
+Requires=docker.service
+After=docker.service
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/zhihui-web
+ExecStart=/opt/zhihui-web/backup.sh
+UMask=0077
+Nice=10
+IOSchedulingClass=best-effort
+IOSchedulingPriority=7
